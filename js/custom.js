@@ -14,8 +14,13 @@ $(document).ready(function(){
 	 });
 	 
 	 // Boostrap Slider
-	 $('.carousel').carousel();
+
+	 $('.carousel').carousel({
+	 	interval: 5000
+	 });
 	 
+	 	
+
 			// navigation click actions	
 			$('.scroll-link').on('click', function(event){
 				event.preventDefault();
