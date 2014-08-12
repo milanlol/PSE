@@ -46,9 +46,19 @@ body {
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.alerts {
+	height: 30px;
+	background-color: #910029;
+}
+.alert-txt {
+	color: yellow;
+	padding-left: 10px;
+	padding-top: 5px;
+}
 .OB-log {
 	text-align: center;
 }
+
 .slide-container {
 	margin-top: 110px;
 	margin-left: 10px;
@@ -170,7 +180,7 @@ p.copyright {
 	border-radius: 0px;
 	margin-bottom: 0px;
 	padding:10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #a7a8ac;
 }
 .carousel-inner .item img {
 	width: 100%;
