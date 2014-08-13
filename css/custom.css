@@ -11,7 +11,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	background: url(../img/bg2-1.jpg) no-repeat; 
+	background: url(../img/tbg2.jpg) no-repeat; 
 	background-size: cover;
 	background-position-y: 100px;
 }
@@ -51,6 +51,10 @@ body {
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.logo {
+	width: 200px;
+}
+
 .alerts {
 	height: 30px;
 	background-color: #910029;
@@ -63,6 +67,7 @@ body {
 .OB-log {
 	text-align: left;
 	padding: 20px 20px;
+	color:#fff;
 }
 
 .OB-log-unimp {
@@ -70,7 +75,7 @@ body {
 }
 
 .slide-container {
-	margin: 100px 10px;
+	margin: 150px 10px;
 }
 
 .btn-login {
@@ -120,6 +125,7 @@ body {
 	background-color: #f8f8f8;
 	padding: 50px 0;
 }
+
 
 .content-section-a .fa  {
 	font-size: 15em;
@@ -212,7 +218,7 @@ p.copyright {
 }
 .carousel-inner .item img {
 	width: 100%;
-	max-height: 500px;
+	max-height: 350px;
 }
 .modal-dialog {
 	max-width: 400px;
