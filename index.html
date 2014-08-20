@@ -210,7 +210,7 @@
   </head>
 
   <body>
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -260,28 +260,57 @@
 </nav>
 
 <!========== HEADERWRAP ==========>
+<div style="margin-top:80px;">
     <div id="headerwrap">
+    	<script type="text/javascript">
+			$('#headerwrap').hide();//hide the background while the images load, ready to fade in later
+		</script>
+
+		<img class="active" src="assets/img/bg/1.jpg" alt=""/>
+		<img src="assets/img/bg/2.jpg"  alt=""   />
+		<img src="assets/img/bg/3.jpg"  alt=""  />
+
+			<script type="text/javascript">
+				function cycleImages(){
+			      var $active = $('#headerwrap .active');
+			      var $next = ($('#headerwrap .active').next().length > 0) ? $('#headerwrap .active').next() : $('#headerwrap img:first');
+			      $next.css('z-index',2);//move the next image up the pile
+				  $active.fadeOut(1500,function(){//fade out the top image
+				  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+			      $next.css('z-index',3).addClass('active');//make the next image the top one
+			      });
+			    }
+
+			    $(window).load(function(){
+					$('#headerwrap').fadeIn(1500);//fade the background back in once all the images are loaded
+					  // run every 7s
+					  setInterval('cycleImages()', 7000);
+			    })
+
+			</script>
+	 </div> <!-- /headerwrap -->
+
     	<div class="container">
-			<div class="row centered">
-				<div class="col-lg-8 col-lg-offset-2 mt">
-					<h2 class="animation slideDown">Personal - Professional - Priced Right</h2>
+			<div class="row">
+				<div class="col-sm-4 OB">
+					<h2 class="animation slideDown">Online Banking</h2>
     				<p class="mt">
-    					<button type="button" class="btn btn-cta btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-lg">Log In</button>
+    					<button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-block btn-lg">Log In</button>
     				</p> 
 				</div>
 			</div><!-- /row -->
     	</div><!-- /container -->
-    </div> <!-- /headerwrap -->
+ </div>
 
 <!========== BLOG POSTS ==========>    
 	<div class="container">	
 
-		<div class="row mt centered ">
+		<!--<div class="row mt centered ">
 			<div class="col-lg-4 col-lg-offset-4">
 				<h3>Welcome!</h3>
 				<hr>
 			</div>
-		</div><!-- /row -->
+		</div> /row -->
 
 		<div class="row mt">
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
