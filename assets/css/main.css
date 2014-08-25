@@ -1,13 +1,4 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: MARCO - One Page Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
- 
-/* FONTS */
+ /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,900,700);
 
 /* OVERALL ASPECT */
@@ -136,6 +127,11 @@ border-bottom-width: 0px;
 }
 
 /* Description Styling / Used in portfolio & Blog images footnotes */
+
+.desc {
+	padding-bottom: 20px;
+}
+
 .desc p {
 	font-family: 'Ruda', sans-serif;
 	font-size: 16px;
@@ -384,6 +380,11 @@ p.capitalize:first-letter {
 	color: white;
 }
 
+.fafooter {
+	color:white;
+	font-size: 9em;
+}
+
 /* Color Wraps */
 #white {
 	margin-top: 0px;
@@ -404,7 +405,8 @@ p.capitalize:first-letter {
 	margin-top: 0px;
 	background-color: #2f2f2f;
 	min-height: 300px;
-	width: 100%;	
+	width: 100%;
+	padding-top: 40px;	
 }
 
 #black h3 {
@@ -502,7 +504,7 @@ background-image: url(http://www.transparenttextures.com/patterns/xv.png);
 }
 
 .ctapad {
-	padding:100px 0;
+	padding:50px 0;
 }
 
 #cta02m {
