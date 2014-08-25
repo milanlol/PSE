@@ -501,7 +501,7 @@ background-image: url(http://www.transparenttextures.com/patterns/xv.png);
 	text-align: center;
 }
 
-#cta01 .row {
+.ctapad {
 	padding:100px 0;
 }
 
