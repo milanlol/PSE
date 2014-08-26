@@ -338,6 +338,9 @@ p.capitalize:first-letter {
 
 /* ================== MAIN WRAP SECTIONS ================== */
 
+.header {
+	padding-top: 80px;
+}
 #headerwrap {
 	padding:0;
 	margin:0;
@@ -450,10 +453,10 @@ p.capitalize:first-letter {
 #cta01 {
 	/*background: url(../img/cta/cta01.jpg) no-repeat center top;*/
 	background-color: #a32739;
-background-image: url(http://www.transparenttextures.com/patterns/xv.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-image: url(http://www.transparenttextures.com/patterns/xv.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	margin-top: 0px;
-	padding:100px 0;
+	padding:25px 0;
 	text-align:left;
 	/*
 	background-attachment: relative;
@@ -462,18 +465,6 @@ background-image: url(http://www.transparenttextures.com/patterns/xv.png);
 	min-height: 350px;
 	width: 100%;
 	
-	/*
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    */
 
 }
 
@@ -501,6 +492,10 @@ background-image: url(http://www.transparenttextures.com/patterns/xv.png);
 	color: #eeeeee;
 	font-size: 15em;
 	text-align: center;
+}
+
+#cta01 p {
+	color:white;
 }
 
 .ctapad {
@@ -657,6 +652,18 @@ background-image: url(http://www.transparenttextures.com/patterns/xv.png);
 	font-weight: 400;
 }
 
+.loans .mt p {
+	text-align: center;
+}
+
+.carousel-inner .item .col-md-3 img {
+	display: block;
+	margin:0 auto;
+}
+
+.carousel-inner h5 {
+	text-align: center;
+}
 
 /* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
 .members {
