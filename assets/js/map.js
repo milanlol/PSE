@@ -100,7 +100,7 @@ function init() {
     });
 
     var infowindow1 = new google.maps.InfoWindow({
-    content: '<strong>Main Office</strong><br /><img src="http://placehold.it/200x120&text=Main Office Pic"><br />5255 Regency Drive<br />Parma, OH 44140<br />440.843.8300<br /><br />'
+    content: '<strong>Main Office</strong><br /><img src="http://placehold.it/200x120&text=Main Office"><br />5255 Regency Drive<br />Parma, OH 44140<br />440.843.8300<br /><br />'
     });
 
     // Adding a click event to the marker
@@ -119,7 +119,7 @@ function init() {
     });
 
     var infowindow2 = new google.maps.InfoWindow({
-    content: '<strong>Strongsville Office</strong><br />12700 Prospect Road<br />Strongsville, OH 44149<br />440.572.3830<br />'
+    content: '<strong>Strongsville Office</strong><br /><img src="http://placehold.it/200x120&text=Strongsville Office"><br />12700 Prospect Road<br />Strongsville, OH 44149<br />440.572.3830<br />'
     });
 
     // Adding a click event to the marker
@@ -138,7 +138,7 @@ function init() {
     });
 
     var infowindow3 = new google.maps.InfoWindow({
-    content: '<strong>Medina Office</strong><br />3845 Pearl Road<br />Medina Township, OH 44256<br />330.661.0160<br />'
+    content: '<strong>Medina Office</strong><br /><img src="http://placehold.it/200x120&text=Medina Office"><br />3845 Pearl Road<br />Medina Township, OH 44256<br />330.661.0160<br />'
     });
 
     // Adding a click event to the marker
@@ -157,7 +157,7 @@ function init() {
     });
 
     var infowindow4 = new google.maps.InfoWindow({
-    content: '<strong>Tri-C West</strong><br />11000 Pleasant Valley Rd. Room G109<br />Parma, OH 44130<br />216.987.5250<br />'
+    content: '<strong>Tri-C West</strong><br /><img src="http://placehold.it/200x120&text=Tri-C West"><br />11000 Pleasant Valley Rd. Room G109<br />Parma, OH 44130<br />216.987.5250<br />'
     });
 
     // Adding a click event to the marker
@@ -176,7 +176,7 @@ function init() {
     });
 
     var infowindow5 = new google.maps.InfoWindow({
-    content: '<strong>Tri-C West</strong><br />2900 Community College Ave. Room 88E<br />Cleveland, OH 44115<br />216.987.4250<br />'
+    content: '<strong>Tri-C Metro</strong><br /><img src="http://placehold.it/200x120&text=Tri-C Metro"><br />2900 Community College Ave. Room 88E<br />Cleveland, OH 44115<br />216.987.4250<br />'
     });
 
     // Adding a click event to the marker
@@ -195,7 +195,7 @@ function init() {
     });
 
     var infowindow6 = new google.maps.InfoWindow({
-    content: '<strong>Tri-C East</strong><br />4250 Richmond Road<br />Highland Hills Village, OH 44122<br />216.987.2250<br />'
+    content: '<strong>Tri-C East</strong><br /><img src="http://placehold.it/200x120&text=Tri-C East"><br />4250 Richmond Road<br />Highland Hills Village, OH 44122<br />216.987.2250<br />'
     });
 
     // Adding a click event to the marker
