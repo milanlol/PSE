@@ -665,6 +665,12 @@ p.capitalize:first-letter {
 	text-align: center;
 }
 
+.disclaimer {
+	font-size: 10pt;
+	text-align: center;
+	font-style: italic;
+}
+
 /* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
 .members {
   width: 302px;
