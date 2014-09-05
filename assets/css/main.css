@@ -264,12 +264,25 @@ p.capitalize:first-letter {
   border-color: #ffffff;
 }
 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #fff;
+	background-color: #A32739;
+	border: none;
+}
 
+.nav-tabs > li > a {
+	background-color: #eee;
+}
+
+.log-in-cont {
+	padding-top: 20px;
+}
 .OB {
-	background-color:#A32739;
-	margin-top: 20px;
-	margin-bottom: 60px;
-	text-align: center;
+	background-color: #A32739;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 20px;
+text-align: center;
 }
 
 .OB h2 {
@@ -357,6 +370,7 @@ p.capitalize:first-letter {
 	top:0;
 	margin:0 auto;
 	z-index:1;
+	width:100%;
 }
 
 #headerwrap img.active {
@@ -399,7 +413,7 @@ p.capitalize:first-letter {
 #grey {
 	margin-top: 0px;
 	background-color: #f7f7f7;
-	min-height: 300px;
+
 	width: 100%;	
 	padding-bottom: 50px;
 }
@@ -670,6 +684,24 @@ p.capitalize:first-letter {
 	text-align: center;
 	font-style: italic;
 }
+
+
+.mini-nav {
+	margin-top:90px;
+}
+
+.rates h4 {
+	text-align: center;
+}
+
+.rates h6 {
+	text-align: center;
+}
+
+#CA-rates, #SA-rates, #CC-rates, #IRA-rates, #ChA-rates, #VISA-rates, #LOAN-rates {
+	padding-top:80px;
+}
+
 
 /* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
 .members {

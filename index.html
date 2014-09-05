@@ -17,7 +17,7 @@
 
     <!-- Custom styles for -->
     <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/colors/color-74c9be.css" rel="stylesheet">    
+ 
     <link href="assets/css/animations.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
@@ -95,13 +95,33 @@
 		</div> <!-- /headerwrap -->
 
 	    <div class="container">
-			<div class="col-sm-4 OB">
-				<h2 class="animation slideDown">Online Banking</h2>
-	    			<p class="mt">
-	    				<button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-block btn-lg">Log In</button>
-	    			</p> 
+	    	<div class="log-in-cont">
+			<div class="col-sm-4">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+				  <li class="active"><a href="#home" role="tab" data-toggle="tab">Single Sign On</a></li>
+				  <li><a href="#profile" role="tab" data-toggle="tab">PSE-biz Pay</a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+				  	<div class="tab-pane active OB" id="home">
+					   <button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-block btn-lg">Log In</button>
+					    			
+					</div>
+				  <div class="tab-pane OB" id="profile">test</div>
+
+				</div>
+
+				
+	    			
+			</div>
+			<div class="col-sm-8">
+			<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
+			</div>
 			</div>
 	    </div><!-- /container -->
+
 	 </div><!-- /headerwrap -->
 
 	<!== BLOG POSTS ==>    
@@ -339,7 +359,6 @@
 		<div class="container">
 			<div class="row mt centered ">
 				<div class="col-lg-4 col-lg-offset-4">
-					<h3>Brands & Clients</h3>
 					<hr>
 				</div><!-- /col-lg-4 -->
 			</div><!-- /row -->
