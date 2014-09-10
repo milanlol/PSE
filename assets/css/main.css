@@ -702,6 +702,10 @@ text-align: center;
 	padding-top:80px;
 }
 
+.t50 tr td {
+	width:50%;
+}
+
 
 /* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
 .members {
