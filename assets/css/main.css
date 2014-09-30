@@ -267,7 +267,6 @@ p.capitalize:first-letter {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	color: #fff;
 	background-color: #A32739;
-	border: none;
 }
 
 .nav-tabs > li > a {
@@ -279,13 +278,15 @@ p.capitalize:first-letter {
 }
 .OB {
 	background-color: #A32739;
-padding-top: 20px;
-padding-bottom: 20px;
-margin-bottom: 20px;
-text-align: center;
+	padding: 10px 20px 20px 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	z-index: 100;
+	position: absolute;
 }
 
-.OB h2 {
+
+.OB h3 {
 	color:white;
 }
 
@@ -351,35 +352,15 @@ text-align: center;
 
 /* ================== MAIN WRAP SECTIONS ================== */
 
+
+
 .header {
 	padding-top: 80px;
 }
-#headerwrap {
-	padding:0;
-	margin:0;
-	width:100%;
-	position:absolute;
-	top:80;
-	left:0;
-	z-index:-1;
+
+.fotorama * {
+	box-sizing: inherit !important;
 }
-
-#headerwrap img {
-	position:absolute;
-	left:0;
-	top:0;
-	margin:0 auto;
-	z-index:1;
-	width:100%;
-}
-
-#headerwrap img.active {
-	z-index:3;
-}
-
-
-
-
 
 /* Footer Wrap */
 
@@ -791,9 +772,6 @@ text-align: center;
 
 @media (max-width: 600px) { 
 
-#headerwrap h1 {
-	font-size: 35px;
-}
 
 #cta03 {
 	background: #2d2d2d;

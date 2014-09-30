@@ -3513,7 +3513,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555;
   cursor: default;
   background-color: #fff;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified {

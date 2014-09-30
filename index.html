@@ -29,6 +29,10 @@
     <!-- Main Jquery & Hover Effects. Should load first -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover_pack.js"></script>
+
+    <!-- fotorama.css & fotorama.js. -->
+	<link  href="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+	<script src="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script> <!-- 16 KB -->
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -68,59 +72,92 @@
 
 	<!== HEADERWRAP ==>
 	<div class="header">
-	    <div id="headerwrap">
-	    	<script type="text/javascript">
-				$('#headerwrap').hide();//hide the background while the images load, ready to fade in later
-			</script>
+		<div class="container">
+		   	<div class="tab-pane active OB" id="home">
+				<h3>Single Sign On</h3>
+				<button type="button" class="btn btn-cta btn-block btn-lg">Log In</button><br>
+			   	<button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button>
+			   	<a href="#">PSE-Biz Pay</a> <a href="#">Enroll</a>
+			   	
 
-			<img class="active" src="assets/img/bg/1.jpg" />
-			<img src="assets/img/bg/2.jpg" />
-			<img src="assets/img/bg/3.jpg" />
+			</div>
+		</div>
 
-			<script type="text/javascript">
-				function cycleImages(){
-				    var $active = $('#headerwrap .active');
-				    var $next = ($('#headerwrap .active').next().length > 0) ? $('#headerwrap .active').next() : $('#headerwrap img:first');
-				    $next.css('z-index',2);//move the next image up the pile
-					$active.fadeOut(1500,function(){//fade out the top image
-						$active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-					    $next.css('z-index',3).addClass('active');//make the next image the top one
-				    });
-				}
-				$(window).load(function(){
-					$('#headerwrap').fadeIn(1500);//fade the background back in once all the images are loaded
-						setInterval('cycleImages()', 7000);
-				});
-			</script>
-		</div> <!-- /headerwrap -->
+		<div class="fotorama" data-width="100%" data-ratio="1200/300" data-loop="true"  data-arrows="false" data-click="false" data-swipe="true" data-transition="crossfade">
+			 	
+			<div data-img="assets/img/bg/1.jpg">
+				<div class="container">
+	    			<div class="log-in-cont row">
+						<div class="col-xs-4">
+							
+	
 
-	    <div class="container">
-	    	<div class="log-in-cont">
-			<div class="col-sm-4">
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-				  <li class="active"><a href="#home" role="tab" data-toggle="tab">Single Sign On</a></li>
-				  <li><a href="#profile" role="tab" data-toggle="tab">PSE-biz Pay</a></li>
-				</ul>
-
-				<!-- Tab panes -->
-				<div class="tab-content">
-				  	<div class="tab-pane active OB" id="home">
-					   <button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-block btn-lg">Log In</button>
-					    			
+							
+						</div>
+						<div class="col-xs-8">
+							<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
+						</div>
 					</div>
-				  <div class="tab-pane OB" id="profile">test</div>
+	   			</div><!-- /container -->
+			</div>
 
-				</div>
+			<div data-img="assets/img/bg/2.jpg">
+				<div class="container">
+	    			<div class="log-in-cont row">
+						<div class="col-xs-4">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+							  <li class="active"><a href="#home" role="tab" data-toggle="tab">Single Sign On</a></li>
+							  <li><a href="#profile" role="tab" data-toggle="tab">PSE-biz Pay</a></li>
+							</ul>
 
-				
-	    			
-			</div>
-			<div class="col-sm-8">
-			<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
-			</div>
-			</div>
-	    </div><!-- /container -->
+							<!-- Tab panes -->
+							<div class="tab-content">
+							  	<div class="tab-pane active OB" id="home">
+								   <button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-block btn-lg">Log In</button>
+								</div>
+				  				<div class="tab-pane OB" id="profile">
+				  					test
+				  				</div>
+							</div>
+						</div>
+						<div class="col-xs-8">
+							<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
+						</div>
+					</div>
+	   			</div><!-- /container -->
+	   		</div>
+
+			<div data-img="assets/img/bg/3.jpg">
+				<div class="container">
+	    			<div class="log-in-cont row">
+						<div class="col-xs-4">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+							  <li class="active"><a href="#home" role="tab" data-toggle="tab">Single Sign On</a></li>
+							  <li><a href="#profile" role="tab" data-toggle="tab">PSE-biz Pay</a></li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+							  	<div class="tab-pane active OB" id="home">
+								   <button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button> <button type="button" class="btn btn-cta btn-block btn-lg">Log In</button>
+								</div>
+				  				<div class="tab-pane OB" id="profile">
+				  					test
+				  				</div>
+							</div>
+						</div>
+						<div class="col-xs-8">
+							<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
+						</div>
+					</div>
+	   			</div><!-- /container -->
+	   		</div>
+
+		</div>
+		
+	  
 
 	 </div><!-- /headerwrap -->
 
