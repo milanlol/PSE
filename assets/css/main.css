@@ -285,6 +285,13 @@ p.capitalize:first-letter {
 	position: absolute;
 }
 
+.OB p {
+	color:#C5C5C5;
+}
+
+.OB a {
+	color:#C5C5C5;
+}
 
 .OB h3 {
 	color:white;
@@ -294,6 +301,11 @@ p.capitalize:first-letter {
 	width:200px;
 	margin:0 auto;
 }
+
+.obbuttons {
+	padding:10px 0;
+}
+
 /***** Testimonials Styling *****/
 .testi-container {
 	width:100%;
@@ -361,6 +373,15 @@ p.capitalize:first-letter {
 .fotorama * {
 	box-sizing: inherit !important;
 }
+
+.fotorama h3 {
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 3px;
+	font-size: 22pt;
+}
+
 
 /* Footer Wrap */
 
