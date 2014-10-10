@@ -458,7 +458,8 @@ p.capitalize:first-letter {
 }
 
 .OB a {
-	color:#C5C5C5;
+	color:#FAFAFA;
+	text-decoration: underline;
 }
 
 .OB h3 {
@@ -542,15 +543,32 @@ p.capitalize:first-letter {
 	background-image: url(../img/bg/contact.jpg);
 	background-position: center;
 	background-size: cover;
-	height:500px;
+	height: auto;
 }
 
-.contactheader .container p {
+.disclosure {
 	color: white;
 	background-color: gray;
-	background-color: rgba(0, 0, 0, 0.58);
+	background-color: rgba(0, 0, 0, 0.3);
 	margin: 10px 0;
 	padding: 10px;
+	font-size: 9pt;
+}
+.locall {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.locpan h3 {
+	color:white;
+}
+.locpan {
+	background-color: gray;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:white;
+	padding:10px 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .lostnum {
 	background-color:#A32739;
