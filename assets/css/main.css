@@ -576,6 +576,14 @@ p.capitalize:first-letter {
 	padding:5px;
 	text-align: center;
 }
+.atmcontainer {
+	background-image: url(../img/bg/atm.jpg);
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	padding: 40px 0;
+}
+
 .aboutheader {
 	padding-top:120px;
 	padding-bottom: 40px;
