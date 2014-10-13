@@ -584,6 +584,16 @@ p.capitalize:first-letter {
 	padding: 40px 0;
 }
 
+.locationsheader {
+	background-image: url(../img/bg/loc.jpg);
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	padding: 40px 0;
+}
+.atmheader {
+	background: #D3D3D3;
+}
 .aboutheader {
 	padding-top:120px;
 	padding-bottom: 40px;
