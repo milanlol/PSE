@@ -92,6 +92,27 @@
 								Parma, OH 44140<br>
 								440.843.8300
 							</p>
+
+							<p class="hourstbopen">Hours <i class="fa fa-caret-down"></i></p>
+
+							<table class="hourstb">
+							  	<tr>
+							    	<td>Monday</td>
+							    	<td>9:00 am - 5:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Tuesday - Thursday</td>
+							    	<td>9:00 am - 5:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Friday</td>
+							    	<td>9:00 am - 6:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Saturday</td>
+							    	<td>9:00 am - 2:00 pm</td>
+							  	</tr>
+							</table>
 						</div>
 					</div>
 					
@@ -104,6 +125,22 @@
 								Strongsville, OH 44149<br>
 								440.572.3830
 							</p>
+							<p class="hourstbopen">Hours <i class="fa fa-caret-down"></i></p>
+
+							<table class="hourstb">
+							  	<tr>
+							    	<td>Monday - Thursday</td>
+							    	<td>9:00 am - 5:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Friday</td>
+							    	<td>9:00 am - 6:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Saturday</td>
+							    	<td>9:00 am - 2:00 pm</td>
+							  	</tr>
+							</table>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -115,6 +152,30 @@
 								Medina Township, OH 44256<br>
 								330.661.0160
 							</p>
+							<p class="hourstbopen">Hours <i class="fa fa-caret-down"></i></p>
+
+							<table class="hourstb">
+							  	<tr>
+							    	<td>Monday and Tuesday</td>
+							    	<td>9:00 am - 5:00 pm</td>
+							  	</tr>
+							  	<tr>
+							  		<td>Wednesday</td>
+							  		<td>Closed </td>
+							  	</tr>
+							  	<tr>
+							    	<td>Thursday</td>
+							    	<td>9:00 am - 5:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Friday</td>
+							    	<td>9:00 am - 6:00 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Saturday</td>
+							    	<td>9:00 am - 2:00 pm</td>
+							  	</tr>
+							</table>
 						</div>
 					</div>
 				</div>
@@ -156,6 +217,15 @@
 						</div>
 					</div>
 				</div>
+
+				
+					
+				
+		</div>
+	</div>
+	<div class="locbutton">
+		<div class="container">
+			<a href="#"><h3 class="centered">Find ATM Locations</h3></a>
 		</div>
 	</div>
 </div>	
@@ -224,16 +294,20 @@
 
 
   	<script>
-		$(window).scroll(function() {
-			$('.si').each(function(){
-			var imagePos = $(this).offset().top;
+
+
+
+  	$(".hourstb").hide();
+	$(".hourstbopen").click(function(){
+		if ($(".hourstb").is(":visible")){
+			$(".hourstb").hide();
+		} else {
+			$(".hourstb").show();
+		}
+		
+
+	});
 	
-			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+400) {
-					$(this).addClass("slideUp");
-				}
-			});
-		});
 	</script>    
   </body>
 </html>

@@ -576,12 +576,24 @@ p.capitalize:first-letter {
 	padding:5px;
 	text-align: center;
 }
+
+.locbutton {
+	background-color: #3F3535;
+	padding-bottom: 10px;
+}
+
+.locbutton h3 {
+	color:white;
+	text-decoration: underline;
+}
+
 .atmcontainer {
 	background-image: url(../img/bg/atm.jpg);
 	background-position: center;
 	background-size: cover;
 	height: auto;
 	padding: 40px 0;
+
 }
 
 .locationsheader {
@@ -590,6 +602,14 @@ p.capitalize:first-letter {
 	background-size: cover;
 	height: auto;
 	padding: 40px 0;
+}
+
+.hourstb {
+	width: 100%;
+	margin:0 auto;
+}
+.hourstb td {
+	text-align: left;
 }
 .atmheader {
 	background: #D3D3D3;
