@@ -281,10 +281,6 @@ p.capitalize:first-letter {
 	padding:20px 0;
 }
 
-.empopp {
-	background-color:#E2E2E2;      
-}
-
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -691,7 +687,10 @@ background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-l
 	color:white;
 	font-size: 9em;
 }
-
+.footerLogos {
+	background-color: #3C3232;
+	padding: 20px 0;
+}
 /* Color Wraps */
 #white {
 	margin-top: 0px;
