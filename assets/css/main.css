@@ -604,6 +604,10 @@ p.capitalize:first-letter {
 	padding: 40px 0;
 }
 
+.hourstbopen:hover {
+	cursor: pointer;
+}
+
 .hourstb {
 	width: 100%;
 	margin:0 auto;
@@ -612,7 +616,9 @@ p.capitalize:first-letter {
 	text-align: left;
 }
 .atmheader {
-	background: #D3D3D3;
+	background-color: #fff;
+background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .aboutheader {
 	padding-top:120px;
@@ -626,7 +632,7 @@ background-image: url(http://www.transparenttextures.com/patterns/60-lines.png);
 	color:wheat;
 }
 
-.aboutheader h3 {
+.aboutheader h3, .aboutheader h5{
 	color:wheat;
 }
 
@@ -635,14 +641,18 @@ background-image: url(http://www.transparenttextures.com/patterns/60-lines.png);
 }
 
 .whatis {
-	background-color: #BEBEBE;
+	background-color: #ffffff;
+background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	margin-top: -10px;
 	padding-top: 40px;
 }
 .whatis p {
 	color:#000;
 }
-
+.timeline > li > .timeline-panel {
+	background-color: white;
+}
 
 .board ul {
 	list-style-type: none;
@@ -984,6 +994,16 @@ background-image: url(http://www.transparenttextures.com/patterns/60-lines.png);
 
 .t50 tr td {
 	width:50%;
+}
+
+table {
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 70% !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
