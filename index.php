@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+	<meta name="robots" content="noindex"
+
    	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -281,18 +284,19 @@
 	<div id="black">
 		<div class="container pt">
 			<div class="row mt centered">
-				<div class="col-lg-3">
+				<div class="col-lg-6">
 					<p><i class="fa fa-users"></i></p>
 					<h1>21,337</h1>
 					<hr>
 					<h4>Members</h4>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-6">
 					<p><i class="fa fa-money"></i></p>
 					<h1>9,764</h1>
 					<hr>
 					<h4>Loans Signed</h4>
 				</div>
+				<!-- 
 				<div class="col-lg-3">
 					<p><i class="fa fa-trophy"></i></p>
 					<h1>107</h1>
@@ -305,6 +309,7 @@
 					<hr>
 					<h4>Customers Satisfied</h4>
 				</div>
+				-->
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /black -->
@@ -370,18 +375,16 @@
 				</div><!-- /col-lg-4 -->
 			</div><!-- /row -->
 			<div class="row centered">
-				<div class="col-lg-3 pt">
+				<div class="col-lg-4 pt">
 					<img class="img-responsive" src="assets/img/clients/client01.png" alt="">
 				</div>
-				<div class="col-lg-3 pt">
+				<div class="col-lg-4 pt">
 					<img class="img-responsive" src="assets/img/clients/client02.png" alt="">
 				</div>
-				<div class="col-lg-3 pt">
+				<div class="col-lg-4 pt">
 					<img class="img-responsive" src="assets/img/clients/client03.png" alt="">
 				</div>
-				<div class="col-lg-3 pt">
-					<img class="img-responsive" src="assets/img/clients/client04.png" alt="">
-				</div>
+				
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /grey -->
@@ -418,8 +421,8 @@
 				
 				<!-- TWEETS -->
 				<div class="col-lg-3">
-					<a class="twitter-timeline"  href="https://twitter.com/Perception_MM"  data-widget-id="472054393240449024">Tweets by @Perception_MM</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<a class="twitter-timeline" href="https://twitter.com/PSECreditUnion" data-widget-id="529324575599759360">Tweets by @PSECreditUnion</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 				</div><!-- /col-lg-3 -->
 				

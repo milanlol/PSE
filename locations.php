@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+	<meta name="robots" content="noindex"
+
    	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +25,7 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
 
-    <!-- MAP SCRIPT - ALL CONFIGURATION IS PLACED HERE -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-   	<script type="text/javascript" src="assets/js/map.js"></script>
+
      
     <!-- Main Jquery & Hover Effects. Should load first -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -89,19 +90,15 @@
 							 <i class="fa fa-location-arrow fa-2x"></i>
 							<p>
 								5255 Regency Drive<br>
-								Parma, OH 44140<br>
+								Parma, OH 44129<br>
 								440.843.8300
 							</p>
 
-							<p class="hourstbopen">Hours <i class="fa fa-caret-down"></i></p>
+							<p class="hourstbopen mainhoursbtn">Hours <i class="fa fa-caret-down"></i></p>
 
-							<table class="hourstb">
+							<table class="hourstb mainhourstbl">
 							  	<tr>
-							    	<td>Monday</td>
-							    	<td>9:00 am - 5:00 pm</td>
-							  	</tr>
-							  	<tr>
-							    	<td>Tuesday - Thursday</td>
+							    	<td>Monday – Thursday</td>
 							    	<td>9:00 am - 5:00 pm</td>
 							  	</tr>
 							  	<tr>
@@ -125,9 +122,9 @@
 								Strongsville, OH 44149<br>
 								440.572.3830
 							</p>
-							<p class="hourstbopen">Hours <i class="fa fa-caret-down"></i></p>
+							<p class="hourstbopen strhoursbtn">Hours <i class="fa fa-caret-down"></i></p>
 
-							<table class="hourstb">
+							<table class="hourstb strhourstbl">
 							  	<tr>
 							    	<td>Monday - Thursday</td>
 							    	<td>9:00 am - 5:00 pm</td>
@@ -152,19 +149,11 @@
 								Medina Township, OH 44256<br>
 								330.661.0160
 							</p>
-							<p class="hourstbopen">Hours <i class="fa fa-caret-down"></i></p>
+							<p class="hourstbopen medhoursbtn">Hours <i class="fa fa-caret-down"></i></p>
 
-							<table class="hourstb">
+							<table class="hourstb medhourstbl">
 							  	<tr>
-							    	<td>Monday and Tuesday</td>
-							    	<td>9:00 am - 5:00 pm</td>
-							  	</tr>
-							  	<tr>
-							  		<td>Wednesday</td>
-							  		<td>Closed </td>
-							  	</tr>
-							  	<tr>
-							    	<td>Thursday</td>
+							    	<td>Monday, Tuesday, Thursday</td>
 							    	<td>9:00 am - 5:00 pm</td>
 							  	</tr>
 							  	<tr>
@@ -191,6 +180,26 @@
 								Parma, OH 44130<br>
 								216.987.5250
 							</p>
+							<p class="hourstbopen whoursbtn">Hours <i class="fa fa-caret-down"></i></p>
+
+							<table class="hourstb whourstbl">
+							  	<tr>
+							    	<td>Monday</td>
+							    	<td>9 – 11:30 am / Noon - 4:30 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Tuesday</td>
+							    	<td>9:30 – 12:30 pm / 1 - 5 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Thursday</td>
+							    	<td>10:30 - 1:00 pm / 1:30 - 5 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Friday</td>
+							    	<td>10 - 11:30 am / Noon - 4 pm</td>
+							  	</tr>
+							</table>
 						</div>
 					</div>
 					
@@ -203,6 +212,19 @@
 								Cleveland, OH 44115<br>
 								216.987.4250
 							</p>
+							<p class="hourstbopen mhoursbtn">Hours <i class="fa fa-caret-down"></i></p>
+
+							<table class="hourstb mhourstbl">
+							  	<tr>
+							    	<td>Monday & Wednesday</td>
+							    	<td>9:30 am – 4:30 pm</td>
+							  	</tr>
+							  	<tr>
+							    	<td>Friday</td>
+							    	<td>9:30 am – 5:00 pm</td>
+							  	</tr>
+							  	
+							</table>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -214,6 +236,16 @@
 								Highland Hills Village, OH 44122<br>
 								216.987.2250
 							</p>
+							<p class="hourstbopen ehoursbtn">Hours <i class="fa fa-caret-down"></i></p>
+
+							<table class="hourstb ehourstbl">
+							  	<tr>
+							    	<td>Tuesday & Thursday</td>
+							    	<td>9:00 - 11:30am / Noon - 4:30pm</td>
+							  	</tr>
+							  	
+							  	
+							</table>
 						</div>
 					</div>
 				</div>
@@ -295,18 +327,37 @@
 
   	<script>
 
+  	 $(document).ready(function() {
+  	 	
 
+  	 	$(".mainhourstbl").hide();
+  	 	$(".strhourstbl").hide();
+  	 	$(".medhourstbl").hide();
+  	 	$(".whourstbl").hide();
+  	 	$(".mhourstbl").hide();
+  	 	$(".ehourstbl").hide();
 
-  	$(".hourstb").hide();
-	$(".hourstbopen").click(function(){
-		if ($(".hourstb").is(":visible")){
-			$(".hourstb").hide();
-		} else {
-			$(".hourstb").show();
-		}
-		
+  	 	$(".whoursbtn").click(function(){
+  	 		$(".whourstbl").slideToggle( "fast" );
+  	 	});
+  	 	$(".ehoursbtn").click(function(){
+  	 		$(".ehourstbl").slideToggle("fast");
+  	 	});
+  	 	$(".mhoursbtn").click(function(){
+  	 		$(".mhourstbl").slideToggle("fast");
+  	 	});
+  	 	$(".medhoursbtn").click(function(){
+  	 		$(".medhourstbl").slideToggle("fast");
+  	 	});
+  	 	$(".strhoursbtn").click(function(){
+  	 		$(".strhourstbl").slideToggle("fast");
+  	 	});
+	    $(".mainhoursbtn").click(function(){
+	      $(".mainhourstbl").slideToggle("fast");
+	    });
 
 	});
+
 	
 	</script>    
   </body>

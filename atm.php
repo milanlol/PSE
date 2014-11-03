@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+	<meta name="robots" content="noindex"
+
+
    	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +12,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Contact - PSE Credit Union</title>
+    <title>ATM Locations - PSE Credit Union</title>
 
     <link href="assets/css/hover_pack.css" rel="stylesheet">
 
@@ -22,9 +26,6 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
 
-    <!-- MAP SCRIPT - ALL CONFIGURATION IS PLACED HERE -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-   	<script type="text/javascript" src="assets/js/map.js"></script>
      
     <!-- Main Jquery & Hover Effects. Should load first -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -79,119 +80,64 @@
 		</div>
 	</div>
 
-<div class="contactheader aboutpad">
-	<div class="container">
-				<fieldset id="contact_form">
-					<div class="row">
-						<div class="col-sm-4 form-short">
-							<input class="form-control" type="text" name="name" id="name" placeholder="Name">
-						</div>
-						<div class="col-sm-4 form-short">
-							<input class="form-control" type="text" name="email" id="email" placeholder="Email">
-						</div>
-						<div class="col-sm-4 form-short">
-							<input class="form-control" type="text" name="phone" id="phone" placeholder="Phone">
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-12 form-short">
-							<textarea name="message" id="message" placeholder="Type your message here..." class="form-control" rows="6"></textarea>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-6">
-							<div id="result"></div>
-						</div>
-						<div class="col-sm-6 text-right">
-							<button class="btn btn-danger no-cssgradients" type="button" id="submit_btn">Send message</button>
-						</div>
-					</div>
-				</fieldset> <!-- /Form -->
+<div class="">
+	<div class="atmheader aboutpad">
+		<div class="container">
+			<h2 class="centered">Our ATMs are Now Online!</h2>
+			<h5>What does this mean for our members?</h5>
+			<ul>
+				<li>
+					You will now have increased availability of your funds - for example, when your payroll is direct deposited you will have immediate access to it through the ATM.
+				</li>
+				<li>
+					The balance reflected on your ATM receipt will be your actual (real-time) balance.
+				</li>
+			</ul>
 				
-				<p class="disclosure">
-					Disclosure/Privacy Notice: Please do not include account numbers or social security numbers on the form below.  PSE Credit Union, Inc. assumes no liability or responsibility for information included on the Contact Information Form. Any and all information included is sent via email and cannot be assumed as completely secure. Please only include information listed and a short message of your request. 
-				</p>
-			<div class="locall">
-				<div class="row locrow">
-					<div class="col-md-4">
-						<div class="locpan">
-							<h3>Main Office</h3>
-							 <i class="fa fa-location-arrow fa-2x"></i>
-							<p>
-								5255 Regency Drive<br>
-								Parma, OH 44140<br>
-								440.843.8300
-							</p>
-						</div>
-					</div>
-					
-					<div class="col-md-4">
-						<div class="locpan">
-						<h3>Strongsville Office</h3>
-						<i class="fa fa-location-arrow fa-2x"></i>
-							<p>
-								12700 Prospect Road<br>
-								Strongsville, OH 44149<br>
-								440.572.3830
-							</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="locpan">
-							<h3>Medina Office</h3>
-							<i class="fa fa-location-arrow fa-2x"></i>
-							<p>
-								3845 Pearl Road<br>
-								Medina Township, OH 44256<br>
-								330.661.0160
-							</p>
-						</div>
+			<p class="disclaimer">
+				NOTICE: ALL DEPOSITS going through the ATM will have a 2-day hold placed on them.
+			</p>
+		</div>
+	</div>
+	<div class="atmcontainer">
+		<div class="container">
+			<h4 class="centered">
+				Your PSECU Debit Card can be used at any Alliance One or 5/3 Bank ATM location. 
+			</h4>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="locpan">
+						<img src="assets/img/aoatm.png"><br><br>
+						<i class="fa fa-location-arrow fa-1x"></i> Alliance One 
 					</div>
 				</div>
-
-
-				<div class="row locrow">
-					<div class="col-md-4">
-						<div class="locpan">
-							<h3>Tri-C West</h3>
-							<i class="fa fa-location-arrow fa-2x"></i>
-							<p>
-								11000 Pleasant Valley Rd. Room G109<br>
-								Parma, OH 44130<br>
-								216.987.5250
-							</p>
-						</div>
-					</div>
-					
-					<div class="col-md-4">
-						<div class="locpan">
-						<h3>Tri-C Metro</h3>
-						<i class="fa fa-location-arrow fa-2x"></i>
-							<p>
-								2900 Community College Ave. Room 88E<br>
-								Cleveland, OH 44115<br>
-								216.987.4250
-							</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="locpan">
-							<h3>Tri-C East</h3>
-							<i class="fa fa-location-arrow fa-2x"></i>
-							<p>
-								4250 Richmond Road<br>
-								Highland Hills Village, OH 44122<br>
-								216.987.2250
-							</p>
-						</div>
+				<div class="col-md-4">
+					<div class="locpan">
+						<img src="assets/img/53atm.png"><br><br>
+						<i class="fa fa-location-arrow fa-1x"></i> 5/3 Bank
 					</div>
 				</div>
-			</div>
-    </div>
+				<div class="col-md-4">
+					<div class="locpan">
+						<img src="assets/img/cu24atm.png" ><br><br>
+						<i class="fa fa-location-arrow fa-1x"></i> Credit Union 24
+					</div>
+				</div>
+			</div>	
+			
+			<p>
+				Key Bank has notified PSE Credit Union that effective May 1, 2009, they will no longer be honoring the surcharge reductions at their ATM machines. So while your $.25 will no longer get you Key Bank ATM access, you can still use Fifth Third ATMs for only $.25 or you can use the Alliance One ATMs and the CU 24 ATMs for FREE. If you have any questions, please call the ATM/Debit Card Dept. at 440-545-5104.
+			</p>
+
+	    </div>
+	</div>
 </div>	
-
+	<div class="locbutton">
+		<div class="container">
+			<a href="#"><h3 class="centered">Find Branch Locations</h3></a>
+		</div>
+	</div>
 
 
 
@@ -218,8 +164,8 @@
 				
 				<!-- TWEETS -->
 				<div class="col-lg-3">
-					<a class="twitter-timeline"  href="https://twitter.com/Perception_MM"  data-widget-id="472054393240449024">Tweets by @Perception_MM</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<a class="twitter-timeline" href="https://twitter.com/PSECreditUnion" data-widget-id="529324575599759360">Tweets by @PSECreditUnion</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 				</div><!-- /col-lg-3 -->
 				
