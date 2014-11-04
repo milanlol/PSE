@@ -771,39 +771,39 @@ visibility:hidden; /* lt-ie9 */
 }
 /* lt-ie9 */
 .b-animate-go:hover .b-animate{
-visibility:visible;
+visibility:visible !important;
 }
 
 .b-from-left{
 position:relative;
-left:-100%;
+left:-100% !important;
 }
 .b-animate-go:hover .b-from-left{
-left:0;
+left:0 !important;
 }
 
 .b-from-right{
-position:relative;
-right:-100%;
+position:relative !important; 
+right:-100% !important;
 }
 .b-animate-go:hover .b-from-right{
-right:0;
+right:0 !important;
 }
 
 .b-from-top{
-position:relative;
-top:-100%;
+position:relative !important;
+top:-100% !important;
 }
 .b-animate-go:hover .b-from-top{
-top:0;
+top:0 !important;
 }
 
 .b-from-bottom{
-position:relative;
-bottom:-100%;
+position:relative !important;
+bottom:-100% !important;
 }
 .b-animate-go:hover .b-from-bottom{
-bottom:0;
+bottom:0 !important;
 }
 
 .b-scale{
@@ -827,7 +827,7 @@ opacity:0;
 }
 
 .b-animate-go:hover .b-opacity{
-opacity:1;
+opacity:1 !important;
 }
 
 .b-animate-go:hover .b-cw-90,.b-animate-go:hover .b-cw-180,.b-animate-go:hover .b-ccw-90,.b-animate-go:hover .b-ccw-180{
