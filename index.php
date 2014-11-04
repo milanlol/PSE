@@ -46,150 +46,170 @@
 
 <body>
 	<?php include 'header.php' ?>
+
+
 	<!== HEADERWRAP ==>
+
+
 	<div class="header">
 		<div class="container">
-		   	<div class="OB" id="home">
-				<h3>Single Sign On</h3>
-				<div class="obbuttons">
-					<button type="button" class="btn btn-cta btn-block btn-lg">Log In</button><br>
-				   	<button type="button" class="btn btn-cta btn-block btn-lg">Sign Up</button>
-			   	</div>
-			   	
-			   	<p> <a href="#" data-toggle="modal" data-target="#myModal">PSE-Biz Pay</a> - <a href="#">Enroll</a> </p>
-			   
-
-			</div>
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				  <div class="modal-dialog">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				        <h4 class="modal-title" id="myModalLabel">PSE-Biz Pay</h4>
-				      </div>
-				      <div class="modal-body">
-				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, magni, nemo. Expedita et doloribus voluptatem adipisci pariatur molestiae tempore tenetur, sed totam architecto fuga, cupiditate perspiciatis minus blanditiis commodi error laboriosam velit sit? Rerum aspernatur quasi repellat illum dignissimos aliquam neque aperiam quam reiciendis cum. Modi quis, praesentium esse suscipit!
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-primary">Demo</button>
-				        <button type="button" class="btn btn-primary">Log In</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-		</div>
-
-		<div class="fotorama" data-width="100%" data-ratio="1200/300" data-loop="true"  data-arrows="false" data-click="false" data-swipe="true" data-transition="crossfade">
-			 	
-			<div data-img="assets/img/bg/3.jpg">
-				<div class="container">
-					<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
+		<div class="row">
+			<div class="logIn col-md-4">
+				<div class="OB">
+					<h3>Single Sign On</h3>
+					<div class="obbuttons">
+						<button type="button" class="btn btn-cta ">Log In</button>
+					   	<button type="button" class="btn btn-cta ">Sign Up</button>
+				   	</div>
+				   	<p class="OB-links"> <a href="#" data-toggle="modal" data-target="#myModal">PSE-Biz Pay</a> - <a href="#">Enroll</a> </p>
+				   	<div class="container">
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						        <h4 class="modal-title" id="myModalLabel">PSE-Biz Pay</h4>
+						      </div>
+						      <div class="modal-body">
+						        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, magni, nemo. Expedita et doloribus voluptatem adipisci pariatur molestiae tempore tenetur, sed totam architecto fuga, cupiditate perspiciatis minus blanditiis commodi error laboriosam velit sit? Rerum aspernatur quasi repellat illum dignissimos aliquam neque aperiam quam reiciendis cum. Modi quis, praesentium esse suscipit!
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Demo</button>
+						        <button type="button" class="btn btn-primary">Log In</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<div data-img="assets/img/bg/2.jpg">
-				<div class="container">
-					<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
-				</div>
-	   		</div>
-
-			<div data-img="assets/img/bg/1.jpg">
-				<div class="container">
-					<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
-				</div>
-	   		</div>
-
-		</div>
 		
-	  
 
-	 </div><!-- /headerwrap -->
+
+			<div class="promoSlider col-md-8">
+				<div class="fotorama" data-width="100%" data-loop="true" data-autoplay="7000" data-arrows="true" data-click="false" data-swipe="true" data-transition="crossfade" nav="false">
+					
+					<img src="assets/img/bg/mobile.jpg">
+
+					<div data-img="assets/img/bg/3.jpg">
+						<div class="slideContent">
+							<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
+						</div>
+					</div>
+
+					<div data-img="assets/img/bg/2.jpg">
+					
+							<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
+						
+			   		</div>
+
+					<div data-img="assets/img/bg/1.jpg">
+						
+							<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
+						
+			   		</div>
+
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
 
 	<!== BLOG POSTS ==>    
 	<div class="container">	
+		
+		<h4 class="centered">Blog<hr></h4>
+		
+
 		<div class="row mt">
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/magicmin.jpg" alt="" />
+				<a class="b-link-fade b-animate-go" href="index.php"><img class="img-responsive" src="assets/img/portfolio/mobile.jpg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Win a Shopping Spree!</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">IDprotect</h4>
+					  	<p class="b-from-right b-animate b-delay03">Read More</p>
 					</div>
 				</a>
-				<p>Credit Union Magic Minute</p>
-				<p class="lead">Win a magical shopping spree!  Thousands of items 60 Seconds to grab all you can!</p>
-				<hr-d>
-				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 14 Nov.</p>
+				<p>Exceptional Security and Peace of Mind!</p>
+				<p class="lead">At PSE Credit Union, we want to help you protect your money and your identity. One of the ways we help to do this is with our identity theft protection service, IDProtect® —which protects you, your joint account holders and your family1 from the expense and hassle of identity theft.</p>
+				
+				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/mobile.jpg" alt="" />
+				<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/magicmin.jpg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Go Mobile!</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Skip-a-Payment</h4>
+					  	<p class="b-from-right b-animate b-delay03">Read More</p>
 					</div>
 				</a>
-				<p>Go Mobile!</p>
-				<p class="lead">Take your account with you wherever you go.  Enjoy the convenience of Online Banking right from your mobile device with PSE Mobile App!</p>
-				<hr-d>
-				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
+				<p>Skip-a-Payment</p>
+				<p class="lead">Let the WINTER FUN begin with the Holiday Skip-A-Payment. You can skip your December payment on your loan with the credit union. Mortgage, home equity, Visa Credit Cards, and business loans are not eligible.</p>
+				
+				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 14 Nov.</p>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
 				<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/sec.jpg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Security</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Earn 1% Cash Back!</h4>
+					  	<p class="b-from-right b-animate b-delay03">Read More</p>
 					</div>
 				</a>
 				<p>Security</p>
-				<p class="lead">Security is a priority at PSE. We are committed to protecting the security and confidentiality of your personal and financial information.</p>
-				<hr-d>
+				<p class="lead">PSE Credit Union is now offering CardCash™. Enroll today to earn up to 1% cash back on your qualified non-PIN debit card purchases. Earn up to $250.00 cash back annually. </p>
+				
 				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
 			</div><!-- col-lg-4 -->
+			
 		</div><!-- /row -->
+
+
+
+		
 	</div><!-- /container -->
 	
 	<!== Membership, Savings, & Checking Accounts ==>    
     <div id="cta01">
     	<div class="container">
     		<div class="row ctapad">
-    			<div class="col-lg-4">
-    				<i class="fa fa-5x fa-shield"></i>
+    			<div class="col-lg-6">
+    				<iframe width="560" height="300" src="//www.youtube.com/embed/ZeUsv_cdF4o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     			</div>
-    			<div class="col-lg-8">
+    			<div class="col-lg-6">
     				<h2 class="section-heading">Membership</h2>
     				<p>
     					PSE Credit Union membership is open to anyone who lives, works, worships, or attends school in Cuyahoga or Medina County; any employee or group member from one of PSECU's 200 different Select Employee Groups; or any family member living in the same household as a current PSECU member.
     				</p>
-    				<button type="button" class="btn btn-cta btn-lg">Learn More >></button>
+    				<button type="button" class="btn btn-cta btn-lg">Enroll Now! >></button>
     			</div>
     		</div><!-- /row -->
+
     		<div class="row">
-    			<div class="col-md-8">
-    				<h2 class="section-heading">Savings Account</h2>
+    			<div class="col-md-6">
+    				<div class="centered"><i class="fa fa-5x fa-lock"></i></div>
+    				
+    				<h2 class="section-heading centered">Savings Account</h2>
     				<p>
     					When you join the credit union and make your initial $5 deposit, you have opened a daily interest savings account.  There is no minimum balance requirement to earn interest on your regular savings account!
     				</p>
     				<button type="button" class="btn btn-cta btn-lg">Apply Now >></button>
     			</div>
-    			<div class="col-lg-4 famid">
-    				<i class="fa fa-5x fa-lock"></i>
-    			</div>
-    		</div><!-- /row -->
-			<div class="row ctapad">
-    			<div class="col-lg-4">
-    				<i class="fa fa-5x fa-university"></i>
-    			</div>
-    			<div class="col-lg-8">
-    				<h2 class="section-heading">Checking Account</h2>
+    			<div class="col-lg-6">
+    				<div class="centered"><i class="fa fa-5x fa-university"></i></div>
+    				
+    				<h2 class="section-heading centered">Checking Account</h2>
     				<p>
-    					Here's a checking account for those who don't like to pay any type of monthly fees! NO monthly service fee, NO minimum balance requirement, NO per check charge, your first 50 checks are FREE, and FREE Visa® Check Card (Debit/ATM card) gives you 24 hour access to your account. 
+    					NO monthly service fee, NO minimum balance requirement, NO per check charge, your first 50 checks are FREE, and FREE Visa® Check Card (Debit/ATM card) gives you 24 hour access to your account. 
     				</p>
     				<button type="button" class="btn btn-cta btn-lg">Learn More >></button>
     			</div>
     		</div><!-- /row -->
+
+			
     	</div><!-- /container -->
     </div><!--/cta01 -->
 
@@ -361,6 +381,12 @@
 				}
 			});
 		});
+
+		$('.fotorama').fotorama({
+		  
+		  nav: false
+		});
+		
 	</script>    
   </body>
 </html>

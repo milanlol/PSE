@@ -44,34 +44,8 @@
 
 <body>
 	<!== Navigation ==>
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	 	<div class="container">
-	    	<!-- Brand and toggle get grouped for better mobile display -->
-	    	<div class="navbar-header">
-	      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-	      		</button>
-	      		<img src="assets/img/PSE-Logo.png" class="img-responsive logo" width="200" />
-	    	</div>
+		<?php include 'header.php' ?>
 
-	    	<!-- Collect the nav links, forms, and other content for toggling -->
-	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      		<ul class="nav navbar-nav navbar-right">
-			        <li><a href="#" class="scroll-link" data-id="home">Home</a></li>
-			        <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
-			        <li><a href="#" class="scroll-link" data-id="locations">Locations</a></li>
-			        <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
-			        <li><a href="#" class="scroll-link" data-id="contact">Contact Us</a></li>
-			        <li><a style="cursor:pointer;" id="loginpopup">Enroll</a></li>
-	      		</ul>
-	    	</div><!-- /.navbar-collapse -->
-	  	</div>
-	</nav>
-
-	<div class="header"></div>
 	<div class="lostnum">
 		<div class="container">
 		<strong>
@@ -84,7 +58,7 @@
 	<div class="locationsheader aboutpad">
 		<div class="container">
 			<div class="row locrow">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="locpan">
 							<h3>Main Office</h3>
 							 <i class="fa fa-location-arrow fa-2x"></i>
@@ -113,7 +87,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="locpan">
 						<h3>Strongsville Office</h3>
 						<i class="fa fa-location-arrow fa-2x"></i>
@@ -140,7 +114,7 @@
 							</table>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="locpan">
 							<h3>Medina Office</h3>
 							<i class="fa fa-location-arrow fa-2x"></i>
@@ -167,11 +141,8 @@
 							</table>
 						</div>
 					</div>
-				</div>
-
-
-				<div class="row locrow">
-					<div class="col-md-4">
+				
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="locpan">
 							<h3>Tri-C West</h3>
 							<i class="fa fa-location-arrow fa-2x"></i>
@@ -203,7 +174,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="locpan">
 						<h3>Tri-C Metro</h3>
 						<i class="fa fa-location-arrow fa-2x"></i>
@@ -227,7 +198,7 @@
 							</table>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="locpan">
 							<h3>Tri-C East</h3>
 							<i class="fa fa-location-arrow fa-2x"></i>
