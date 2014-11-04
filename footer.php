@@ -7,13 +7,13 @@
 				</div><!-- /col-lg-4 -->
 			</div><!-- /row -->
 			<div class="row centered">
-				<div class="col-lg-4 pt">
+				<div class="col-xs-4 pt">
 					<img class="img-responsive" src="assets/img/logos/bbb.png"  alt="">
 				</div>
-				<div class="col-lg-4 pt">
+				<div class="col-xs-4 pt">
 					<img class="img-responsive" src="assets/img/logos/ehl.png"  alt="">
 				</div>
-				<div class="col-lg-4 pt">
+				<div class="col-xs-4 pt">
 					<img class="img-responsive" src="assets/img/logos/asi.png"  alt="">
 				</div>
 				

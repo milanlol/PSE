@@ -16,8 +16,8 @@
 	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      		<ul class="nav navbar-nav navbar-right">
 			        <li><a href="index.php" class="scroll-link" data-id="home">Home</a></li>
+			        <li><a href="about.php" class="scroll-link" data-id="about">About</a></li>
 			        <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
-			        <li><a href="locations.php" class="scroll-link" data-id="locations">Locations</a></li>
 
 			        <li class="dropdown">
 			          <a href="locations.php" class="dropdown-toggle" data-toggle="dropdown">Find Us! <span class="caret"></span></a>
@@ -28,9 +28,10 @@
 			          </ul>
 			        </li>
 
-			        <li><a href="about.php" class="scroll-link" data-id="about">About Us</a></li>
-			        <li><a href="contact.php" class="scroll-link" data-id="contact">Contact Us</a></li>
-			        <li><a style="cursor:pointer;" id="loginpopup">Enroll</a></li>
+			        
+			        <li><a href="contact.php" class="scroll-link" data-id="contact">Contact</a></li>
+			        <li><a href="newsletter.pdf" class="scroll-link" data-id="newsletter">Newsletter</a></li>
+			        <li><a href="#">Enroll</a></li>
 	      		</ul>
 	    	</div><!-- /.navbar-collapse -->
 	  	</div>
