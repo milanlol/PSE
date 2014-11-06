@@ -1,11 +1,12 @@
  /* FONTS */
-@import url(http://fonts.googleapis.com/css?family=Ruda:400,900,700);
+@import url(http://fonts.googleapis.com/css?family=Habibi);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 
 /* OVERALL ASPECT */
 
 body {
     background-color: #f2f2f2;
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Josefin Sans' , sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -17,7 +18,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Habibi', sans-serif;
     font-weight: 900;
     color: #333;
 }
@@ -130,10 +131,20 @@ border-bottom-width: 0px;
 
 .desc {
 	padding-bottom: 20px;
+	text-align: center;
+}
+
+.desctitle {
+	width: 275px;
+	padding: 0;
+	margin: -5px auto 20px auto;
+	background-color: #322828;
+	color: #ECECEC;
+}
 }
 
 .desc p {
-	font-family: 'Ruda', sans-serif;
+	font-family: 'Josefin Sans' , sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 15px;
@@ -151,14 +162,16 @@ border-bottom-width: 0px;
 }
 
 .desc p.lead {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Josefin Sans' ,  sans-serif;
     font-weight: 400;
     font-size: 14px;
-    margin-top: -15px;
+    margin-top: -10px;
+	margin-bottom: 0px;
+	 text-align: left;
 }
 
 .desc p.time {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Josefin Sans' , sans-serif;
     font-weight: 400;
     font-size: 12px;
     margin-top: 0px;
@@ -168,6 +181,10 @@ border-bottom-width: 0px;
 
 .desc p.time > i {
 	font-size: 12px;
+}
+
+.blogPostWrap img {
+	width:275px;
 }
 
 
@@ -191,7 +208,7 @@ p.capitalize {
 p.capitalize:first-letter {
 	text-transform:capitalize; 
 	font-size: 30px;
-	font-family: 'Ruda', sans-serif;
+	font-family: sans-serif;
 	font-weight: 400;
 	color:white; 
 	padding-left:10px; 
@@ -228,7 +245,7 @@ p.capitalize:first-letter {
   color: #ffffff;
   background-color: transparent;
   border-color: #ffffff;
-  font-family: 'Ruda', sans-serif;
+  font-family: 'Habibi', sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   margin-bottom: 25px;
@@ -249,7 +266,7 @@ p.capitalize:first-letter {
   color: #2f2f2f;
   background-color: #ffd56c;
   border-color: #ffffff;
-  font-family: 'Ruda', sans-serif;
+  font-family: 'Habibi', sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   margin-bottom: 25px;
@@ -441,6 +458,12 @@ p.capitalize:first-letter {
 	text-align: center;
 }
 
+.logIn h3 {
+	border: 1px solid black;
+	padding: 5px 0;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
 
 
 
@@ -471,7 +494,7 @@ p.capitalize:first-letter {
 
 
 .obbuttons {
-	padding:10px 0;
+	padding:20px 0;
 }
 
 /***** Testimonials Styling *****/
@@ -535,8 +558,8 @@ p.capitalize:first-letter {
 
 
 .header {
-	padding-top: 80px;
-	margin-bottom: 30px;
+	padding-top: 100px;
+	margin-bottom: 40px;
 }
 
 .contactheader {

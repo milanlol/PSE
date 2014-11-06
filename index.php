@@ -55,10 +55,11 @@
 		<div class="container">
 		<div class="row">
 			<div class="logIn col-md-4">
+				<h3>Single Sign On</h3>
 				<div class="OB">
-					<h3>Single Sign On</h3>
+					
 					<div class="obbuttons">
-						<button type="button" class="btn btn-cta ">Log In</button>
+						<button type="button" class="btn btn-cta ">Log In</button><br><br>
 					   	<button type="button" class="btn btn-cta ">Sign Up</button>
 				   	</div>
 				   	<p class="OB-links"> <a href="#" data-toggle="modal" data-target="#myModal">PSE-Biz Pay</a> - <a href="#">Enroll</a> </p>
@@ -91,25 +92,12 @@
 			<div class="promoSlider col-md-8">
 				<div class="fotorama" data-width="100%" data-loop="true" data-autoplay="7000" data-arrows="true" data-click="false" data-swipe="true" data-transition="crossfade" nav="false">
 					
-					<img src="assets/img/bg/mobile.jpg">
+					<img src="assets/img/bg/1.jpg">
+					<img src="assets/img/bg/2.jpg" height="288" width="864">
 
-					<div data-img="assets/img/bg/3.jpg">
-						<div class="slideContent">
-							<h3>PSE Credit Union believes in providing a pathway to your success.</h3>
-						</div>
-					</div>
+				
 
-					<div data-img="assets/img/bg/2.jpg">
 					
-							<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
-						
-			   		</div>
-
-					<div data-img="assets/img/bg/1.jpg">
-						
-							<h3 class="col-sm-8 col-sm-offset-4">PSE Credit Union believes in providing a pathway to your success.</h3>
-						
-			   		</div>
 
 				</div>
 			</div>
@@ -122,47 +110,53 @@
 	<!== BLOG POSTS ==>    
 	<div class="container">	
 		
-		<h4 class="centered">Blog<hr></h4>
+		<h4 class="centered">Blog</h4>
 		
 
 		<div class="row mt">
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="index.php"><img class="img-responsive" src="assets/img/portfolio/mobile.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">IDprotect</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More</p>
-					</div>
-				</a>
-				<p>Exceptional Security and Peace of Mind!</p>
-				<p class="lead">At PSE Credit Union, we want to help you protect your money and your identity. One of the ways we help to do this is with our identity theft protection service, IDProtect® —which protects you, your joint account holders and your family1 from the expense and hassle of identity theft.</p>
-				
-				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
+				<div class="blogPostWrap">
+					<a class="b-link-fade b-animate-go" href="index.php"><img class="img-responsive" src="assets/img/portfolio/mobile.jpg" alt="" />
+						<div class="b-wrapper">
+						  	<h4 class="b-from-left b-animate b-delay03">12 Days of Christmas Loan</h4>
+						  	<p class="b-from-right b-animate b-delay03">Read More</p>
+						</div>
+					</a>
+					<p class="desctitle">12 Days of Christmas Loan!</p>
+					<p class="lead">For 12 days borrow $1,200 for 12 months! Nov 24th - Dec 8th.  Rates as low as 8.0% APR*</p>
+					
+					<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
+				</div>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/magicmin.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Skip-a-Payment</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More</p>
-					</div>
-				</a>
-				<p>Skip-a-Payment</p>
-				<p class="lead">Let the WINTER FUN begin with the Holiday Skip-A-Payment. You can skip your December payment on your loan with the credit union. Mortgage, home equity, Visa Credit Cards, and business loans are not eligible.</p>
-				
-				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 14 Nov.</p>
+				<div class="blogPostWrap">
+					<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/magicmin.jpg" alt="" />
+						<div class="b-wrapper">
+						  	<h4 class="b-from-left b-animate b-delay03">Skip-a-Payment</h4>
+						  	<p class="b-from-right b-animate b-delay03">Read More</p>
+						</div>
+					</a>
+					<p class="desctitle">Skip-a-Payment</p>
+					<p class="lead">Let the WINTER FUN begin with the Holiday Skip-A-Payment. You can skip your December payment on your loan with the credit union. Mortgage, home equity, Visa Credit Cards, and business loans are not eligible.</p>
+					
+					<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 14 Nov.</p>
+				</div>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/sec.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Earn 1% Cash Back!</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More</p>
-					</div>
-				</a>
-				<p>Security</p>
-				<p class="lead">PSE Credit Union is now offering CardCash™. Enroll today to earn up to 1% cash back on your qualified non-PIN debit card purchases. Earn up to $250.00 cash back annually. </p>
-				
-				<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
+				<div class="blogPostWrap">
+					<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/sec.jpg" alt="" />
+						<div class="b-wrapper">
+						  	<h4 class="b-from-left b-animate b-delay03">Earn 1% Cash Back!</h4>
+						  	<p class="b-from-right b-animate b-delay03">Read More</p>
+						</div>
+					</a>
+					<p class="desctitle">Security</p>
+					<p class="lead">PSE Credit Union is now offering CardCash™. Enroll today to earn up to 1% cash back on your qualified non-PIN debit card purchases. Earn up to $250.00 cash back annually. </p>
+					
+					<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
+				</div>
 			</div><!-- col-lg-4 -->
 			
 		</div><!-- /row -->
