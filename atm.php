@@ -71,7 +71,7 @@
 	  	</div>
 	</nav>
 
-	<div class="header"></div>
+	
 	<div class="lostnum">
 		<div class="container">
 		<strong>
