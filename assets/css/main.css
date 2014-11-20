@@ -638,6 +638,7 @@ p.capitalize:first-letter {
 .hourstb {
 	width: 100%;
 	margin:0 auto;
+	border:none !important;
 }
 .hourstb td {
 	text-align: left;

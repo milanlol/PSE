@@ -58,7 +58,7 @@
 	<div class="locationsheader aboutpad">
 		<div class="container">
 			<div class="row locrow">
-					<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="locpan">
 							<h3>Main Office</h3>
 							 <i class="fa fa-location-arrow fa-2x"></i>
@@ -87,7 +87,7 @@
 						</div>
 					</div>
 					
-					<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="locpan">
 						<h3>Strongsville Office</h3>
 						<i class="fa fa-location-arrow fa-2x"></i>
@@ -114,7 +114,7 @@
 							</table>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="locpan">
 							<h3>Medina Office</h3>
 							<i class="fa fa-location-arrow fa-2x"></i>
@@ -141,8 +141,10 @@
 							</table>
 						</div>
 					</div>
+			</div>
+			<div class="row">
 				
-					<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="locpan">
 							<h3>Tri-C West</h3>
 							<i class="fa fa-location-arrow fa-2x"></i>
@@ -174,7 +176,7 @@
 						</div>
 					</div>
 					
-					<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="locpan">
 						<h3>Tri-C Metro</h3>
 						<i class="fa fa-location-arrow fa-2x"></i>
@@ -198,7 +200,7 @@
 							</table>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="locpan">
 							<h3>Tri-C East</h3>
 							<i class="fa fa-location-arrow fa-2x"></i>
@@ -299,7 +301,8 @@
   	<script>
 
   	 $(document).ready(function() {
-  	 	
+
+
 
   	 	$(".mainhourstbl").hide();
   	 	$(".strhourstbl").hide();
@@ -309,22 +312,22 @@
   	 	$(".ehourstbl").hide();
 
   	 	$(".whoursbtn").click(function(){
-  	 		$(".whourstbl").slideToggle( "fast" );
+  	 		$(".whourstbl").toggle( "slow" );
   	 	});
   	 	$(".ehoursbtn").click(function(){
-  	 		$(".ehourstbl").slideToggle("fast");
+  	 		$(".ehourstbl").toggle("slow");
   	 	});
   	 	$(".mhoursbtn").click(function(){
-  	 		$(".mhourstbl").slideToggle("fast");
+  	 		$(".mhourstbl").toggle("slow");
   	 	});
   	 	$(".medhoursbtn").click(function(){
-  	 		$(".medhourstbl").slideToggle("fast");
+  	 		$(".medhourstbl").toggle("slow");
   	 	});
   	 	$(".strhoursbtn").click(function(){
-  	 		$(".strhourstbl").slideToggle("fast");
+  	 		$(".strhourstbl").toggle("slow");
   	 	});
 	    $(".mainhoursbtn").click(function(){
-	      $(".mainhourstbl").slideToggle("fast");
+	      $(".mainhourstbl").toggle("slow");
 	    });
 
 	});
