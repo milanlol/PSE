@@ -44,32 +44,7 @@
 
 <body>
 	<!== Navigation ==>
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	 	<div class="container">
-	    	<!-- Brand and toggle get grouped for better mobile display -->
-	    	<div class="navbar-header">
-	      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-	      		</button>
-	      		<img src="assets/img/PSE-Logo.png" class="img-responsive logo" width="200" />
-	    	</div>
-
-	    	<!-- Collect the nav links, forms, and other content for toggling -->
-	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      		<ul class="nav navbar-nav navbar-right">
-			        <li><a href="#" class="scroll-link" data-id="home">Home</a></li>
-			        <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
-			        <li><a href="#" class="scroll-link" data-id="locations">Locations</a></li>
-			        <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
-			        <li><a href="#" class="scroll-link" data-id="contact">Contact Us</a></li>
-			        <li><a style="cursor:pointer;" id="loginpopup">Enroll</a></li>
-	      		</ul>
-	    	</div><!-- /.navbar-collapse -->
-	  	</div>
-	</nav>
+		<?php include 'header.php' ?>
 
 	
 	<div class="lostnum">
