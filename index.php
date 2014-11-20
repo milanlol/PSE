@@ -1,3 +1,14 @@
+<?php 
+/* Short and sweet */
+define('WP_USE_THEMES', false);
+require('blog/wp-blog-header.php');
+?>
+
+<?php
+require('blog/wp-blog-header.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,58 +120,51 @@
 
 	<!== BLOG POSTS ==>    
 	<div class="container">	
+
+
+
+		
 		
 		<h4 class="centered">Blog</h4>
 		
 
 		<div class="row mt">
-			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<div class="blogPostWrap">
-					<a class="b-link-fade b-animate-go" href="index.php"><img class="img-responsive" src="assets/img/portfolio/mobile.jpg" alt="" />
-						<div class="b-wrapper">
-						  	<h4 class="b-from-left b-animate b-delay03">12 Days of Christmas Loan</h4>
-						  	<p class="b-from-right b-animate b-delay03">Read More</p>
-						</div>
-					</a>
-					<p class="desctitle">12 Days of Christmas Loan!</p>
-					<p class="lead">For 12 days borrow $1,200 for 12 months! Nov 24th - Dec 8th.  Rates as low as 8.0% APR*</p>
-					
-					<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
-				</div>
-			</div><!-- col-lg-4 -->
+			<?php
+			global $post;
+			$args = array( 'posts_per_page' => 3 );
+			$myposts = get_posts( $args );
+			foreach( $myposts as $post ) :	setup_postdata($post); ?>
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
 				<div class="blogPostWrap">
-					<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/magicmin.jpg" alt="" />
+					<a class="b-link-fade b-animate-go" href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?>
 						<div class="b-wrapper">
-						  	<h4 class="b-from-left b-animate b-delay03">Skip-a-Payment</h4>
+						  	<h4 class="b-from-left b-animate b-delay03"><?php the_title(); ?></h4>
 						  	<p class="b-from-right b-animate b-delay03">Read More</p>
 						</div>
 					</a>
-					<p class="desctitle">Skip-a-Payment</p>
-					<p class="lead">Let the WINTER FUN begin with the Holiday Skip-A-Payment. You can skip your December payment on your loan with the credit union. Mortgage, home equity, Visa Credit Cards, and business loans are not eligible.</p>
+					<p class="desctitle">
+						<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
+					</p>
 					
-					<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 14 Nov.</p>
+					<div class="lead">
+						<?php the_excerpt(); ?>
+					</div>
+					
+					<p class="time">
+						<a href="<?php the_permalink() ?>">
+							<i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> <?php echo get_the_date( 'M jS' ); ?>
+						</a>
+					</p>
+					
 				</div>
 			</div><!-- col-lg-4 -->
+			<?php endforeach; ?>
 			
-			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<div class="blogPostWrap">
-					<a class="b-link-fade b-animate-go" href="#"><img class="img-responsive" src="assets/img/portfolio/sec.jpg" alt="" />
-						<div class="b-wrapper">
-						  	<h4 class="b-from-left b-animate b-delay03">Earn 1% Cash Back!</h4>
-						  	<p class="b-from-right b-animate b-delay03">Read More</p>
-						</div>
-					</a>
-					<p class="desctitle">Security</p>
-					<p class="lead">PSE Credit Union is now offering CardCash™. Enroll today to earn up to 1% cash back on your qualified non-PIN debit card purchases. Earn up to $250.00 cash back annually. </p>
-					
-					<p class="time"><i class="fa fa-comment-o"></i>  | <i class="fa fa-calendar"></i> 13 Oct.</p>
-				</div>
-			</div><!-- col-lg-4 -->
 			
 		</div><!-- /row -->
 
+		
 
 
 		

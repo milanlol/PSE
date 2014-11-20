@@ -161,7 +161,7 @@ border-bottom-width: 0px;
 	cursor: pointer;
 }
 
-.desc p.lead {
+.lead p {
     font-family: 'Josefin Sans' ,  sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -183,8 +183,16 @@ border-bottom-width: 0px;
 	font-size: 12px;
 }
 
-.blogPostWrap img {
+.blogPostWrap {
 	width:275px;
+	margin:0 auto;
+}
+
+.blogPostWrap img {
+	width: 100%;
+	display: block;
+	height: 75%;
+
 }
 
 
