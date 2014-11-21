@@ -61,6 +61,8 @@ function pse_setup() {
 		'aside', 'image', 'video', 'quote', 'link',
 	) );
 
+	add_theme_support( 'post-thumbnails' );
+
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'pse_custom_background_args', array(
 		'default-color' => 'ffffff',

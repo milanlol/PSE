@@ -56,7 +56,7 @@ require('blog/wp-blog-header.php');
 </head>
 
 <body>
-	<?php include 'header.php' ?>
+	<?php include 'mainHeader.php' ?>
 
 
 	<!== HEADERWRAP ==>

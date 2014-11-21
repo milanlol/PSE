@@ -44,7 +44,7 @@
 
 <body>
 	<!== Navigation ==>
-		<?php include 'header.php' ?>
+		<?php include 'mainHeader.php' ?>
 
 	
 	<div class="lostnum">

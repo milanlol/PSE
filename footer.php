@@ -8,13 +8,13 @@
 			</div><!-- /row -->
 			<div class="row centered">
 				<div class="col-xs-4 pt">
-					<img class="img-responsive" src="assets/img/logos/bbb.png"  alt="">
+					<img class="img-responsive ftimg" src="assets/img/logos/bbb.png"  alt="">
 				</div>
 				<div class="col-xs-4 pt">
-					<img class="img-responsive" src="assets/img/logos/ehl.png"  alt="">
+					<img class="img-responsive ftimg" src="assets/img/logos/ehl.png"  alt="">
 				</div>
 				<div class="col-xs-4 pt">
-					<img class="img-responsive" src="assets/img/logos/asi.png"  alt="">
+					<img class="img-responsive ftimg" src="assets/img/logos/asi.png"  alt="">
 				</div>
 				
 			</div><!-- /row -->
@@ -42,13 +42,15 @@
 				<!-- LATEST POSTS -->
 				<div class="col-lg-3">
 					<h4>Latest Posts</h4>
-					<p>
-						<i class="fa fa-angle-right"></i> Credit Union Magic Minute<br/>
-						<i class="fa fa-angle-right"></i> Earn up to 1% Cash Back!<br/>
-						<i class="fa fa-angle-right"></i> Earn $500 Back<br/>
-						<i class="fa fa-angle-right"></i> Discount Tickets to Cedar Point<br/>
-						<i class="fa fa-angle-right"></i> Fund it! Spend it! CUmoney<br/>
-					</p>
+					<?php
+					global $post;
+					$args = array( 'posts_per_page' => 5 );
+					$myposts = get_posts( $args );
+					foreach( $myposts as $post ) :	setup_postdata($post); ?>
+
+					<i class="fa fa-angle-right"></i> <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
+					
+					<?php endforeach; ?>
 				</div><!-- /col-lg-3 -->
 				
 				<!-- TWEETS -->
@@ -61,8 +63,10 @@
 				
 				<!-- NEW PROJECT -->
 				<div class="col-lg-3">
-					<h4>PSE TV!</h4>
-					<a href="#"><i class="fa fafooter fa-youtube-play"></i></a>
+					<div class="centered">
+						<h4>PSE TV!</h4>
+						<a href="#"><i class="fa fafooter fa-youtube-play"></i></a>
+					</div>
 				</div><!-- /col-lg-3 -->
 				
 				

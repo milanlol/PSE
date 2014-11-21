@@ -141,13 +141,39 @@ a img {
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
+
+ /* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Habibi);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Josefin Sans' , sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Habibi', sans-serif;
+    font-weight: 900;
+    color: #333;
+}
+
+
 body,
 button,
 input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Josefin Sans' , sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -402,6 +428,9 @@ textarea {
 /*--------------------------------------------------------------
 5.0 Navigation
 --------------------------------------------------------------*/
+#masthead {
+	margin-bottom: 100px;
+}
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
@@ -617,6 +646,21 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.widget ul {
+	list-style-type: none;
+	font-size: 10pt;
+	line-height: 25px;
+	margin-left: 0px;
+}
+
+.widget-title {
+	text-align: center;
+}
+
+.widget_search {
+	text-align: center;
+}
+
 /* Make sure select elements fit in widgets */
 .widget select {
 	max-width: 100%;
@@ -630,6 +674,25 @@ a:active {
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
+.entry-header {
+	text-align: center;
+	line-height: 30px;
+}
+
+.entry-title {
+	font-size: 14pt;
+} 
+
+.entry-meta {
+	font-size:10pt;
+}
+
+.postCont {
+	background: #fff;
+	border: #e2e2e2 solid 1px;
+	padding:20px;
+	margin-bottom: 40px;
+}
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
@@ -673,6 +736,15 @@ a:active {
 /*--------------------------------------------------------------
 10.3 Comments
 --------------------------------------------------------------*/
+.commentContainer {
+	background-color: white;
+	padding:20px;
+}
+
+#commentform .comment-form-url { display: none; }
+
+.form-allowed-tags {display: none;}
+
 .comment-content a {
 	word-wrap: break-word;
 }

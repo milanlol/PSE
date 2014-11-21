@@ -17,13 +17,13 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-
+<div class="container commentContainer">
 <div id="comments" class="comments-area">
 
 	<?php // You can start editing here -- including this comment! ?>
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<h2 class="comments-title centered">
 			<?php
 				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'pse' ),
 					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
@@ -63,7 +63,9 @@ if ( post_password_required() ) {
 	?>
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'pse' ); ?></p>
 	<?php endif; ?>
-
+	
+	
 	<?php comment_form(); ?>
 
 </div><!-- #comments -->
+</div>

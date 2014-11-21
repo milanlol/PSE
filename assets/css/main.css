@@ -716,6 +716,11 @@ padding-top: 0px;
 
 /* Footer Wrap */
 
+.ftimg {
+	width:250px;
+	margin:0 auto;
+}
+
 #f {
 	background-color: #1b1b1b;
 	padding-top: 40px;
