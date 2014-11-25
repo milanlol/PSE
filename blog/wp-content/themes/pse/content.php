@@ -6,22 +6,32 @@
 <div class="">
 	<article class="postCont" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="row">
-		<div class="col-md-3">
+	<div class="centered">
+		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+
+	</div>
+		<div class="col-md-4">
 			<?php 
 				if ( has_post_thumbnail() ) {
 					the_post_thumbnail();
 				}
-			?></div>
-		<div class="col-md-9">
-			<header class="entry-header">
-			<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+			?>
 
-			<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta">
-				<?php pse_posted_on(); ?>
-			</div><!-- .entry-meta -->
-			<?php endif; ?>
-		</header><!-- .entry-header -->
+			<footer class="entry-footer">
+				<?php //pse_entry_footer(); ?>
+
+			
+			</footer><!-- .entry-footer -->
+		</div>
+		<div class="col-md-8">
+			<header class="entry-header">
+				
+				<?php if ( 'post' == get_post_type() ) : ?>
+				<div class="entry-meta">
+					<?php pse_posted_on(); ?>
+				</div><!-- .entry-meta -->
+				<?php endif; ?>
+			</header><!-- .entry-header -->
 
 		<div class="entry-content">
 			<?php
@@ -42,9 +52,7 @@
 
 		</div><!-- .entry-content -->
 
-		<footer class="entry-footer">
-			<?php pse_entry_footer(); ?>
-		</footer><!-- .entry-footer -->
+		
 		</div>
 	</div>
 		

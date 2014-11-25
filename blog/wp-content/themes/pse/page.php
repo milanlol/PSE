@@ -31,5 +31,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php if ( ! tribe_is_event_query() || ( tribe_is_event_query() && is_singular() ) ) get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -57,7 +57,6 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -214,7 +213,6 @@ address {
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 1.5rem;
 	line-height: 1.6;
@@ -228,7 +226,6 @@ code,
 kbd,
 tt,
 var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 	font-size: 15px;
 	font-size: 1.5rem;
 }
@@ -323,6 +320,10 @@ table {
 
 th {
 	font-weight: bold;
+}
+
+#tribe-events-content table.tribe-events-calendar {
+    width: 100% !important;
 }
 
 /*--------------------------------------------------------------
@@ -644,6 +645,10 @@ a:active {
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
+	background: none repeat scroll 0% 0% #FFF;
+	border: 1px solid #E2E2E2;
+	padding: 20px;
+	margin-bottom: 40px;
 }
 
 .widget ul {
@@ -671,16 +676,47 @@ a:active {
 	display: none;
 }
 
+#wp-calendar {
+	margin: 0px auto;
+}
+
+#wp-calendar tbody tr td a {
+	text-decoration: underline;
+	background-color: #E3E3E3;
+	color: #000;
+	padding: 2px;
+}
+
+.tagcloud {
+	text-align: center;
+}
+
+
+/* events wiget */
+.tribe-events-list-widget-events .entry-title {
+    font-size: 12pt;
+    padding: 20px 0 10px 0;
+}
+
+.tribe-events-list-widget-events .duration {
+	font-size: 10pt;
+}
+
+.vcalendar {
+	margin: 0px;
+}
+
+
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
 .entry-header {
-	text-align: center;
 	line-height: 30px;
 }
 
 .entry-title {
 	font-size: 14pt;
+	padding:20px;
 } 
 
 .entry-meta {
@@ -692,6 +728,15 @@ a:active {
 	border: #e2e2e2 solid 1px;
 	padding:20px;
 	margin-bottom: 40px;
+}
+
+.headerImg {
+	width:400px;
+	margin:0 auto;
+}
+
+.headerImgHolder {
+	background-color:#fff;
 }
 /*--------------------------------------------------------------
 10.1 Posts and pages
@@ -737,8 +782,35 @@ a:active {
 10.3 Comments
 --------------------------------------------------------------*/
 .commentContainer {
-	background-color: white;
-	padding:20px;
+	background-color: #FFF;
+	padding: 20px;
+	margin-bottom: 40px;
+	border: 1px solid #E2E2E2;
+}
+
+.comments-title {
+	margin: 10px 0 20px 0;
+}
+
+.comment-list .even {
+	background-color:#DADADA;
+}
+
+.comment-list .odd {
+	background-color:#EDEDED;
+}
+
+.comment {
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.comment-body {
+	margin-bottom: 20px;
+}
+
+.comment-metadata {
+	font-size: 10pt;
 }
 
 #commentform .comment-form-url { display: none; }

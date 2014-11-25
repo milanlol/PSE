@@ -7,9 +7,10 @@
  * @package pse
  */
 ?>
-
+	</div>
+	</div>
 	</div><!-- #content -->
-
+	
 	<footer id="colophon" class="site-footer" role="contentinfo">
 	
 	<!== Important ==>    
@@ -96,6 +97,12 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<script>
+	if($('.tribe-events-single').length > 0 ) {
+		$('.sidebarWrap').hide();
+	}
+</script>
 
 </body>
 </html>

@@ -59,7 +59,7 @@
 	    	<!-- Collect the nav links, forms, and other content for toggling -->
 	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      		<ul class="nav navbar-nav navbar-right">
-			        <li><a href="../../../../../new/index.php" class="scroll-link" data-id="home">Home</a></li>
+			        <li><a href="../../../../../new/blog/" class="scroll-link" data-id="home">Home</a></li>
 			        <li><a href="../../../../../new/about.php" class="scroll-link" data-id="about">About</a></li>
 			        <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
 
@@ -84,4 +84,6 @@
 		
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div class="container">
+		<div class="row">
+			<div id="content" class="site-content">
