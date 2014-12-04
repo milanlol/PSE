@@ -12,9 +12,9 @@
 		?>
 	</div>
 </div>
-<div class="container">
+<div class="container artBod">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<header class="entry-header">
+		<header class="entry-header centered">
 
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
@@ -23,7 +23,7 @@
 			</div><!-- .entry-meta -->
 		</header><!-- .entry-header -->
 
-		<div class="entry-content">
+		<div class="entry-content artEntCont">
 			<?php the_content(); ?>
 			<?php
 				wp_link_pages( array(
@@ -33,7 +33,7 @@
 			?>
 		</div><!-- .entry-content -->
 
-		<footer class="entry-footer">
+		<footer class="entry-footer artEntCont">
 			<?php pse_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
 	</article><!-- #post-## -->

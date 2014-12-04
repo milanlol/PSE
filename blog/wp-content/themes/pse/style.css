@@ -148,7 +148,6 @@ a img {
 
 body {
     background-color: #f2f2f2;
-    font-family: 'Josefin Sans' , sans-serif !important;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -160,11 +159,26 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Habibi', sans-serif;
-    font-weight: 900;
-    color: #333;
+
 }
 
+
+
+h1 {
+	font-size: 22pt;
+}
+
+h2 {
+	font-size: 18pt;
+}
+
+h3 {
+	font-size: 15pt;
+}
+
+h4 {
+	font-size: 13pt;
+}
 
 body,
 button,
@@ -172,7 +186,6 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: 'Josefin Sans' , sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -340,8 +353,7 @@ textarea {
 
 button,
 input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type="reset"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
@@ -399,7 +411,6 @@ input[type="search"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
-	border-radius: 3px;
 }
 
 input[type="text"]:focus,
@@ -431,6 +442,11 @@ textarea {
 --------------------------------------------------------------*/
 #masthead {
 	margin-bottom: 100px;
+}
+
+.postNav {
+	padding: 20px 0px 0px;
+	font-size: 10pt;
 }
 /*--------------------------------------------------------------
 5.1 Links
@@ -660,6 +676,7 @@ a:active {
 
 .widget-title {
 	text-align: center;
+	font-size:14pt;
 }
 
 .widget_search {
@@ -686,6 +703,11 @@ a:active {
 	color: #000;
 	padding: 2px;
 }
+
+.tribe-events-calendar {
+	background-color: #ECECEC;
+}
+
 
 .tagcloud {
 	text-align: center;
@@ -716,7 +738,7 @@ a:active {
 
 .entry-title {
 	font-size: 14pt;
-	padding:20px;
+	padding:20px 0px;
 } 
 
 .entry-meta {
@@ -736,7 +758,9 @@ a:active {
 }
 
 .headerImgHolder {
-	background-color:#fff;
+	background-color: #ffe2e2;
+	background-image: url(http://www.transparenttextures.com/patterns/pinstriped-suit.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 /*--------------------------------------------------------------
 10.1 Posts and pages
@@ -768,6 +792,16 @@ a:active {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.artBod {
+	background-color: #fff;
+}
+
+.artEntCont {
+	margin:0 auto;
+	width:70%;
+	padding-top: 40px;
 }
 
 /*--------------------------------------------------------------

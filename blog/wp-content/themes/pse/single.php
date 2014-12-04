@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 			
-			<div class="container">
+			<div class="container postNav">
 				<?php pse_post_nav(); ?>
 			</div>
 			
