@@ -66,12 +66,14 @@ require('blog/wp-blog-header.php');
 		<div class="container">
 		<div class="row">
 			<div class="logIn col-md-4">
-				<h3>Single Sign On</h3>
+				<h3>Bank Online</h3>
 				<div class="OB">
 					
-					<div class="obbuttons">
-						<button type="button" class="btn btn-cta ">Log In</button><br><br>
-					   	<button type="button" class="btn btn-cta ">Sign Up</button>
+					<div class="obbuttons row">
+						<div class="col-xs-12 col-sm-6 col-md-12 col-lg-12"><button type="button" class="btn btn-cta ">Log In</button><br><br></div>
+						<div class="col-xs-12 col-sm-6 col-md-12 col-lg-12"><button type="button" class="btn btn-cta ">Sign Up</button></div>
+						
+					   	
 				   	</div>
 				   	<p class="OB-links"> <a href="#" data-toggle="modal" data-target="#myModal">PSE-Biz Pay</a> - <a href="#">Enroll</a> </p>
 				   	<div class="container">
@@ -125,7 +127,6 @@ require('blog/wp-blog-header.php');
 
 		
 		
-		<h4 class="centered">Blog</h4>
 		
 
 		<div class="row mt">
@@ -164,6 +165,9 @@ require('blog/wp-blog-header.php');
 			
 		</div><!-- /row -->
 
+		<a href="blog/index.php">
+			<h4 class="centered readMoreBtn">Read More</h4>
+		</a>
 		
 
 
@@ -175,35 +179,40 @@ require('blog/wp-blog-header.php');
     	<div class="container">
     		<div class="row ctapad">
     			<div class="col-lg-6">
-    				<iframe width="560" height="300" src="//www.youtube.com/embed/ZeUsv_cdF4o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    				<div class="videoWrapper">
+    					<iframe width="560" height="300" src="//www.youtube.com/embed/ZeUsv_cdF4o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    				</div>
     			</div>
     			<div class="col-lg-6">
     				<h2 class="section-heading">Membership</h2>
     				<p>
     					PSE Credit Union membership is open to anyone who lives, works, worships, or attends school in Cuyahoga or Medina County; any employee or group member from one of PSECU's 200 different Select Employee Groups; or any family member living in the same household as a current PSECU member.
     				</p>
-    				<button type="button" class="btn btn-cta btn-lg">Enroll Now! >></button>
+    				<div class="centered"> <button type="button" class="btn btn-cta btn-lg">Enroll Now! >></button> </div>
+    				
     			</div>
     		</div><!-- /row -->
 
-    		<div class="row">
-    			<div class="col-md-6">
+    		<div class="row ctapad">
+    			<div class="col-lg-6 col-md-6 col-sm-12 savingsAcc">
     				<div class="centered"><i class="fa fa-5x fa-lock"></i></div>
     				
     				<h2 class="section-heading centered">Savings Account</h2>
     				<p>
     					When you join the credit union and make your initial $5 deposit, you have opened a daily interest savings account.  There is no minimum balance requirement to earn interest on your regular savings account!
     				</p>
-    				<button type="button" class="btn btn-cta btn-lg">Apply Now >></button>
+    				<div class="centered"><button type="button" class="btn btn-cta btn-lg">Apply Now >></button></div>
+    				
     			</div>
-    			<div class="col-lg-6">
+    			<div class="col-lg-6 col-md-6 col-sm-12 checkingAcc">
     				<div class="centered"><i class="fa fa-5x fa-university"></i></div>
     				
     				<h2 class="section-heading centered">Checking Account</h2>
     				<p>
     					NO monthly service fee, NO minimum balance requirement, NO per check charge, your first 50 checks are FREE, and FREE Visa® Check Card (Debit/ATM card) gives you 24 hour access to your account. 
     				</p>
-    				<button type="button" class="btn btn-cta btn-lg">Learn More >></button>
+    				<div class="centered"><button type="button" class="btn btn-cta btn-lg">Learn More >></button></div>
+    				
     			</div>
     		</div><!-- /row -->
 
@@ -224,34 +233,34 @@ require('blog/wp-blog-header.php');
 				Lending products to help you manage cash flow and prepare for opportunities!
 			</p>
 		</div><!-- /row -->
-    	<div class="row mt">
-    		<div class="col-lg-4 centered si">
+    	<div class="row mt loanBoxes">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
     			<i class="fa fa-car"></i>
     			<h4>Auto Loans</h4>
     			<p>The credit union will finance up to 100% of the purchase price of any new car, and up to 100% of the retail value on used vehicles. All rates are fixed, and terms vary from 1-84 months.</p>
     		</div>
-    		<div class="col-lg-4 centered si">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
     			<i class="fa fa-truck"></i>
     			<h4>Collateral Loans</h4>
     			<p>A new or used car, boat, motorcycle, motor home, trailer, or truck may be used as collateral on a loan.</p>
     		</div>
-    		<div class="col-lg-4 centered si">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
     			<i class="fa fa-home"></i>
     			<h4>Home Equity Lines of Credit</h4>
     			<p>This type of loan is a second mortgage on real estate. A member may borrow up to $100,000 depending on the value of the real estate. Interest may be tax deductible on Federal tax returns.</p>
     		</div>    	
 
-    		<div class="col-lg-4 centered si">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
     			<i class="fa fa-key"></i>
     			<h4>Mortgage Loans</h4>
     			<p>For more information on first mortgage rates, please call Woodside Mortgage at 216-591-2202.</p>
     		</div>
-    		<div class="col-lg-4 centered si">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
     			<i class="fa fa-lock"></i>
     			<h4>Shared Secured Loans</h4>
     			<p>You may qualify for our minimum loan rate by securing your loan with the balance in your prime share (savings) account. This is our most economical loan plan.</p>
     		</div>
-    		<div class="col-lg-4 centered si">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
     			<i class="fa fa-pencil"></i>
     			<h4>Signature Loans</h4>
     			<p>Loans on your signature for almost any purpose are available up to $10,000 depending on your income and ability to repay.</p>
@@ -346,14 +355,7 @@ require('blog/wp-blog-header.php');
 
 	<!== Map ==>    
 	<div id="white">
-		<div class="container">
-	    	<div class="row mt">
-	    		<div class="col-lg-4 col-lg-offset-4 centered">
-	    			<h3>Contact Us</h3>
-	    			<hr>
-	    		</div>
-	    	</div><! --/row -->
-		</div><!-- /container -->
+		
 	<div id="map"></div>	
 	</div><!-- /white -->
 

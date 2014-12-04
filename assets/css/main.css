@@ -5,7 +5,9 @@
 /* OVERALL ASPECT */
 
 body {
-    background-color: #f2f2f2;
+    background-color: #FFE2E2 !important;
+	background-image: url(http://www.transparenttextures.com/patterns/60-lines.png) !important;
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     font-family: 'Josefin Sans' , sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -18,7 +20,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Habibi', sans-serif;
+    font-family: 'Habibi', serif;
     font-weight: 900;
     color: #333;
 }
@@ -85,10 +87,95 @@ a:after {
 	padding: 10px 0;
 }
 
+.logInNav {
+	background-color:#A32739;
+	border-radius: 0 5px 5px 0;
+	border-bottom:4px solid #890606; 
+}
+
+.logInNav a {
+	color:white !important;
+}
+
+.logInNav:active {
+	border-bottom:2px solid #890606; 
+	top: 2px;
+}
+
+.enrollNav {
+	background-color:#FF5E5E;
+	border-radius: 5px 0 0 5px;
+	border-bottom:4px solid #DA1818; 
+}
+
+.enrollNav:active {
+	border-bottom:2px solid #d84545;
+	top: 2px;
+}
+
+.enrollNav a {
+	color:white !important;
+}
+
+
+
 .navbar-fixed-top {
 border-width: 0 0 0px;
 border-bottom-width: 0px;
 }
+
+.siteSearch {
+	font-size: 20px;
+}
+
+.siteSearch:hover {
+	cursor: pointer;
+}
+
+#search_form {
+float:right;
+z-index: 9999;
+position: relative;
+}
+
+#searchField {
+	border-top: none;
+	outline: none;
+	background: #fff;
+	width: 265px;
+	margin: 0;
+	padding: 7px;
+	margin-right: -40px;
+	border:1px solid #999;
+}
+
+#searchButton {
+	box-shadow: none;
+    border-radius: none;
+    outline: medium none;
+    cursor: pointer;
+    width: 34px;
+    border-width: medium medium medium 1px;
+    border-style: none none none solid;
+    border-left: 1px solid gray;
+    padding:7px 0;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 /* ================== BASIC CONFIGURATION ================== */
 
 .spacing i {
@@ -227,6 +314,21 @@ p.capitalize:first-letter {
 
 
 /* Button Call To Action */
+
+.readMoreBtn {
+	border: 1px solid black;
+	padding: 10px;
+	width: 275px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
+
+.readMoreBtn:hover {
+	border: 1px solid gray;
+	color:gray;
+}
+
 .btn-cta {
   color: #ffffff;
 	background-color: transparent;
@@ -467,10 +569,11 @@ p.capitalize:first-letter {
 }
 
 .logIn h3 {
-	border: 1px solid black;
+	border: 1px solid #6B6B6B;
 	padding: 5px 0;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	background-color: white;
 }
 
 
@@ -479,8 +582,8 @@ p.capitalize:first-letter {
 	
 	background-color: #a32739;
 	background-image: url(http://www.transparenttextures.com/patterns/xv.png);
-
-   padding: 10px;
+	padding: 10px;
+	margin-bottom: 40px;
 }
 
 .OB p {
@@ -503,6 +606,11 @@ p.capitalize:first-letter {
 
 .obbuttons {
 	padding:20px 0;
+}
+
+.obbuttons .btn-cta {
+	width:80%;
+	margin:0px;
 }
 
 /***** Testimonials Styling *****/
@@ -700,13 +808,12 @@ background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-l
 
 .fotorama h3 {
 	color: white;
-text-shadow: 2px 2px 2px #000;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-letter-spacing: 3px;
-font-size: 16pt;
-padding: 10px;
-text-align: center;
-padding-top: 0px;
+	text-shadow: 2px 2px 2px #000;
+	letter-spacing: 3px;
+	font-size: 16pt;
+	padding: 10px;
+	text-align: center;
+	padding-top: 0px;
 }
 
 .slideContent {
@@ -717,7 +824,7 @@ padding-top: 0px;
 /* Footer Wrap */
 
 .ftimg {
-	width:250px;
+	width:150px;
 	margin:0 auto;
 }
 
@@ -805,6 +912,10 @@ padding-top: 0px;
 }
 
 /* ================== CALL TO ACTION WRAP SECTIONS & HELPERS ================== */
+
+.savingsAcc {
+	padding-bottom: 40px;
+}
 #cta01 {
 	/*background: url(../img/cta/cta01.jpg) no-repeat center top;*/
 	background-color: #a32739;
@@ -819,9 +930,8 @@ padding-top: 0px;
 	*/
 	min-height: 350px;
 	width: 100%;
-	
-
 }
+
 
 #cta01 h1 {
 	color: white;
@@ -1017,6 +1127,14 @@ padding-top: 0px;
 	text-align: center;
 }
 
+.loanBox {
+	height:250px;
+}
+
+.loanBoxes {
+	padding-bottom: 40px;
+}
+
 .carousel-inner .item .col-md-3 img {
 	display: block;
 	margin:0 auto;
@@ -1160,6 +1278,13 @@ table {
 }
 
 @media (max-width: 767px) {
+
+	.btn-cta {
+		margin: 0px;
+		width:100%;
+		padding:10px;
+	}
+
     ul.timeline:before {
         left: 40px;
     }
@@ -1199,7 +1324,7 @@ table {
 
 .OB {
 	margin-bottom: 40px;
-	margin-top: 80px;
+
 }
 
 .lostnum {
