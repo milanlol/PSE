@@ -2,9 +2,7 @@
 	<div class="footerLogos">
 		<div class="container">
 			<div class="row mt centered ">
-				<div class="col-lg-4 col-lg-offset-4">
-					<hr>
-				</div><!-- /col-lg-4 -->
+				
 			</div><!-- /row -->
 			<div class="row centered">
 				<div class="col-xs-4 pt">
