@@ -133,7 +133,7 @@ require('blog/wp-blog-header.php');
 		              		Move to free standing building at 6208 Ridge Road in Parma.
 		              	</p>
 
-		              	<img src="assets/img/timeline/old_pse.png" alt="" class="img-responsive">
+		              	
 		              	<img src="assets/img/timeline/ridge.png"  alt="" class="img-responsive">
 		            </div>
 	          	</div>
@@ -165,6 +165,7 @@ require('blog/wp-blog-header.php');
 		              	<p>
 		              		Grand Opening of the newly built Main Office located at 5255 Regency Drive in Parma.
 		              	</p>
+		              	<img src="assets/img/timeline/old_pse.png" alt="" class="img-responsive">
 		              	<img src="assets/img/timeline/mainoffice.png" alt="" class="img-responsive">
 		            </div>
 	          	</div>
