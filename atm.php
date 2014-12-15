@@ -93,20 +93,22 @@ require('blog/wp-blog-header.php');
 			<div class="row">
 				<div class="col-md-4">
 					<div class="locpan">
-						<img src="assets/img/aoatm.png"><br><br>
-						<i class="fa fa-location-arrow fa-1x"></i> Alliance One 
+						<a href="http://www.atmallianceone.org"><img src="assets/img/aoatm.png"><br><br>
+						<i class="fa fa-location-arrow fa-1x"></i> Alliance One </a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="locpan">
+						<a href="https://www.53.com/atm/branchatm">
 						<img src="assets/img/53atm.png"><br><br>
-						<i class="fa fa-location-arrow fa-1x"></i> 5/3 Bank
+						<i class="fa fa-location-arrow fa-1x"></i> 5/3 Bank </a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="locpan">
+						<a href="http://www.cu24.com/ATMLocator/index.aspx">
 						<img src="assets/img/cu24atm.png" ><br><br>
-						<i class="fa fa-location-arrow fa-1x"></i> Credit Union 24
+						<i class="fa fa-location-arrow fa-1x"></i> Credit Union 24 </a>
 					</div>
 				</div>
 			</div>	
@@ -120,7 +122,7 @@ require('blog/wp-blog-header.php');
 </div>	
 	<div class="locbutton">
 		<div class="container">
-			<a href="#"><h3 class="centered">Find Branch Locations</h3></a>
+			<a href="locations.php"><h3 class="centered">Find Branch Locations</h3></a>
 		</div>
 	</div>
 
@@ -128,54 +130,9 @@ require('blog/wp-blog-header.php');
 
 
 	
-
-	<!== FOOTER ==>    
 	
-	<div id="f">
-		<div class="container">
-			<div class="row">
-				<!-- ADDRESS -->
-				<div class="col-lg-3">
-					<h4>Our Main Office</h4>
-					<p>
-						5255 Regency Drive,<br/>
-						Parma, OH 44140<br/>
-					</p>
-					<p>
-						<i class="fa fa-mobile"></i> 440.843.8300<br/>
-						<i class="fa fa-envelope-o"></i> info@psecreditunion.com
-					</p>
-				</div><!--/col-lg-3 -->
-				
-				<!-- TWEETS -->
-				<div class="col-lg-3">
-					<a class="twitter-timeline" href="https://twitter.com/PSECreditUnion" data-widget-id="529324575599759360">Tweets by @PSECreditUnion</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-				</div><!-- /col-lg-3 -->
-				
-				<!-- LATEST POSTS -->
-				<div class="col-lg-3">
-					<h4>Latest Posts</h4>
-					<p>
-						<i class="fa fa-angle-right"></i> Credit Union Magic Minute<br/>
-						<i class="fa fa-angle-right"></i> Earn up to 1% Cash Back!<br/>
-						<i class="fa fa-angle-right"></i> Earn $500 Back<br/>
-						<i class="fa fa-angle-right"></i> Discount Tickets to Cedar Point<br/>
-						<i class="fa fa-angle-right"></i> Fund it! Spend it! CUmoney<br/>
-					</p>
-				</div><!-- /col-lg-3 -->
-				
-				<!-- NEW PROJECT -->
-				<div class="col-lg-3">
-					<h4>PSE TV!</h4>
-					<a href="#"><i class="fa fafooter fa-youtube-play"></i></a>
-				</div><!-- /col-lg-3 -->
-				
-				
-			</div><!--/row -->
-		</div><!-- /container -->
-	</div><!-- /f -->
+<?php include 'footer.php'; ?>
+	
 	
 
 
