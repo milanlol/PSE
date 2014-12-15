@@ -24,10 +24,10 @@
 			          <ul class="dropdown-menu" role="menu">
 			            <li><a href="savings.php">Savings</a></li>
 						<li><a href="checking.php">Checking</a></li>
-						<li><a href="#">Rates</a></li>
-						<li><a href="#">Fees</a></li>
+						<li><a href="rates.php">Rates</a></li>
+						<li><a href="fees.php">Fees</a></li>
 						<li><a href="visa.php">Visa</a></li>
-						<li><a href="#">CU Programs</a></li>
+						<li><a href="cu-programs.php">CU Programs</a></li>
 						<li><a href="loans.php">Loans</a></li>
 						<li><a href="member-clubs.php">Member Clubs</a> </li>
 						<li><a href="convenience-services.php">Convenience Services</a></li>
@@ -52,7 +52,7 @@
 			            <li><a href="blog/index.php">Blog</a></li>
 			            <li><a href="blog/index.php">Events</a></li>
 			            <li class="divider"></li>
-			            <li><a href="newsletter.pdf" data-id="newsletter">Newsletter</a></li>
+			            <li><a href="assets/newsletter/PSEOct2014.pdf" data-id="newsletter">Newsletter</a></li>
 			            <li class="divider"></li>
 			          	<li><a href="#">Twitter</a></li>
 			            <li><a href="#">Facebook </a></li>
@@ -62,10 +62,10 @@
 			        
 			        
 			        
-			        <li class="enrollNav"><a href="#">Enroll</a></li>
+			        <li class="enrollNav"><a href="https://mrp1.cunetbranch.com/swk/mrp_8377/App.aspx?AppID=11001">Enroll</a></li>
 
 
-			        <li class="logInNav"><a href="#">Log In</a></li>
+			        <li class="logInNav"><a href="https://www.financial-net.com/psecreditunion">Log In</a></li>
 
 
 					<li>
