@@ -56,18 +56,17 @@ require('blog/wp-blog-header.php');
 
        <?php include 'mainHeader.php' ?>
 
-       <div class="header atmheader">
-         <!-- header of the page - has padding top to fit in nav - add page titles here -->
-
-         <div class="container">
-            <h2 class="centered">Checking</h2>
+        <div class="header ">
+            <div class="container">
+                <h2 class="centered">Checking</h2>
+            </div>
         </div>
-    </div>
 
 
     <div class="container savings">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
+                <div class="boxContainer">
                 <h4>Free Checking</h4>
                 <p>Here's a checking account for those who don't like to pay any type of monthly fees!</p>
                 <ul>
@@ -81,8 +80,9 @@ require('blog/wp-blog-header.php');
                 </ul>
                 
                 <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>
+                </div>
                 
-
+                <div class="boxContainer">
                 <h4>Premier Checking</h4>
                 <p><a href="#">Sign up for your benefits</a></p>
                 <p>Here's a checking account that practically pays for itself and gives you extras you'll really use!
@@ -100,11 +100,12 @@ require('blog/wp-blog-header.php');
                         <li>ID Network Safety Service</li>
                     </ul>
                     <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>
-
+                </div>
+                <div class="boxContainer">
                     <h4>Business Checking</h4>
                     <p>PSE offers sole proprietorship business checking accounts. You need to open a business savings account in order to open a business checking account. A business tax I.D. is required to open a business checking account. These business checking accounts do not earn interest and are not entitled to FREE checks.</p>
                     <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>
-                    
+                </div>
                 </div>
             </div>
         </div><!-- -->

@@ -56,91 +56,102 @@ require('blog/wp-blog-header.php');
 
        <?php include 'mainHeader.php' ?>
 
-       <div class="header atmheader">
-         <!-- header of the page - has padding top to fit in nav - add page titles here -->
-
+       <div class="header">
          <div class="container">
             <h2 class="centered">VISA&reg; Products</h2>
-            <p>Shop around and compare our VISA cards to all the rest. You'll soon discover that you've found the best deal in town right here 
-                at PSE Credit Union.</p>
+            
             </div>
         </div>
 
         <div class="container">
             <div classs="row">
                 <div class="col-md-12">
+                <p>Shop around and compare our VISA cards to all the rest. You'll soon discover that you've found the best deal in town right here at PSE Credit Union.</p>
+
                     <p><a href="https://www.financial-net.com/psecreditunion/enrollment/OlbCmdSit249">Register to view and make your PSE Visa payment on-line today.</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h4>Credit Cards</h4>
+                    <h4 class="centered">Credit Cards</h4>
                 </div>
             </div>
+            <div class="boxContainer"> 
             <div class="row">
                 <div class="hidden-xs col-sm-4 col-md-3">
-                    <img src="http://placehold.it/200x150" class="img-responsive img-left">
+                    <img src="assets/img/visa/PSEvisa_classic.jpg" class="img-responsive img-left">
                 </div>
                 <div class="col-sm-8 col-md-9">
                     <h6>VISA&reg; Classic</h6>
                     <p>Our VISA Classic card offers a non-variable interest rate of 13.5% APR (Annual Percentage Rate), NO annual fee and the CU Rewards enhancement package.
                     </p>
 
+                </div>
                 </div>  
 
             </div>
 
+            <div class="boxContainer"> 
             <div class="row">
                 <div class="hidden-xs col-sm-4 col-md-3">
-                    <img src="http://placehold.it/200x150" class="img-responsive img-left">
+                    <img src="assets/img/visa/PSEvisa_gold.jpg" class="img-responsive img-left">
                 </div>
                 <div class="col-sm-8 col-md-9">
                     <h6>VISA&reg; Gold</h6>
                     <p>Our VISA Gold card offers you a minimum credit limit of $2,000, NO annual fee, the CU Rewards advantage and a low, variable interest rate of just 8.00% APR. The minimum income requirement is just $25,000.</p>
 
+                </div>
                 </div>  
             </div>
 
+            <div class="boxContainer"> 
             <div class="row">
                 <div class="hidden-xs col-sm-4 col-md-3">
-                    <img src="http://placehold.it/200x150" class="img-responsive img-left">
+                    <img src="assets/img/visa/PSEvisa_vanilla.jpg"  class="img-responsive img-left">
                 </div>
                 <div class="col-sm-8 col-md-9">
                     <h6>VISA&reg; Vanilla</h6>
                     <p>For those of us who enjoy the simple things in life, we have the VISA® Vanilla card. The Visa® Vanilla offers a LOW, non-variable interest rate of 9.99% APR and NO annual fee.</p>
 
-                </div>  
+                </div> 
+                </div> 
             </div>
+            <div class="boxContainer"> 
             <div class="row">
                 <div class="hidden-xs col-sm-4 col-md-3">
-                    <img src="http://placehold.it/200x150" class="img-responsive img-left">
+                    <img src="assets/img/visa/PSEvisa_CUsuceed.jpg" class="img-responsive img-left">
                 </div>
                 <div class="col-sm-8 col-md-9">
                     <h6>CU Succeed Student VISA&reg;</h6>
                     <p>Our Student VISA&reg; card offers a non-variable interest rate of 13.5% APR and NO annual fee. By opening a Student VISA&reg;, young people can start to establish good credit history while enjoying a competitive interest rate. 
                         (Students may be required to have a qualifying parent or guardian co-borrower if the student is under 18, or if they need to establish credit in their name.)</p>
 
-                    </div>  
+                    </div> 
+                    </div> 
                 </div>
 
+                <div class="boxContainer"> 
                 <div class="row">
                     <div class="hidden-xs col-sm-4 col-md-3">
-                        <img src="http://placehold.it/200x150" class="img-responsive img-left">
+                        <img src="assets/img/visa/PSEvisa_renew.jpg" class="img-responsive img-left">
                     </div>
                     <div class="col-sm-8 col-md-9">
                         <h6>VISA&reg; Renew</h6>
                         <p></p>
                     </div>  
+                    </div>
                 </div>                      
+                <div class="boxContainer"> 
                 <div class="row">
                     <div class="hidden-xs col-sm-4 col-md-3">
-                        <img src="http://placehold.it/200x150" class="img-responsive img-left">
+                        <img src="assets/img/visa/PSEvisa_heloc.jpg"  class="img-responsive img-left">
                     </div>
                     <div class="col-sm-8 col-md-9">
                         <h6>VISA&reg; HELOC</h6>
                         <p>Using the equity in your home to make purchases is easier than ever with our VISA Home Equity Card! The card works just like a regular VISA credit card except that you are accessing your home equity line of credit instead of a VISA line of credit. This has many advantages such as higher credit limits, possible tax deductible interest (consult your tax advisor) and a low variable rate of "prime plus 0%."</p>
                         
                     </div> 
+                    </div>
                 </div>
 
                 <div class="row">
@@ -223,8 +234,9 @@ require('blog/wp-blog-header.php');
 
                     </div>  
                 </div>
-
-                <?php include 'footer.php'; ?>
+            </div>
+        
+        <?php include 'footer.php'; ?>
 
 
 

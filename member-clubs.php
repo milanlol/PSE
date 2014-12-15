@@ -56,7 +56,7 @@ require('blog/wp-blog-header.php');
 
 	<?php include 'mainHeader.php' ?>
 
-		<div class="header atmheader">
+		<div class="header">
 			<!-- header of the page - has padding top to fit in nav - add page titles here -->
 
 			<div class="container">
@@ -67,40 +67,22 @@ require('blog/wp-blog-header.php');
 
 		<div class="container">
             <div class="row">
-                <div class="col-sm-4 col-md-3 centered">
-                    <img src="http://placehold.it/200x200" class="img-responsive">
+                <div class="col-md-3 centered">
+                    <img src="assets/img/timeline/pennie.png"  class="img-responsive">
                 </div>
-                <div class="col-sm-8 col-md-9">
+
+                <div class="col-md-9">
                     <h4>Pennie the Puppy Kids Club</h4>
                     <p>Enroll your child in the Pennie the Puppy Kids Club and let the magic begin! With an initial deposit of $5.00, kids can begin to learn the value of saving money. As they make deposits they get stamps that can be redeemed for special gifts. Children 12 and under may join.
                     </p>
-                    <p>Check out the fun on <a href="#">Pennie's Page</a></p>
-              </div>  
-
-            </div>
-             <div class="row">
-
-                <div class="col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9">
+              
                     <h4>Platinum Club</h4>
                     <p>Join the Platinum Club and receive special member benefits such as, preferred one-hour loan service with a discount on certain loans (members must meet certain credit qualifications), unlimited ATM usage, FREE PS Easy Pay service (online/telephone bill payer program) and discounts on credit union services such as FREE travelers checks and 10% off of safe deposit box rental. To qualify, you must have a PSECU checking account, VISA card, ATM/Debit card and put $250 on hold in your regular savings account.</p>
-                    
-              </div>  
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-3 centered">
-                    <img src="http://placehold.it/200x200" class="img-responsive">
-                </div>
-                <div class="col-sm-8 col-md-9">
+               
                     <h4>CU Succeed Club</h4>
                     <p>The CU Succeed Club is a program for members age 13-22 years-old who are students. The program offers customized accounts and services such as a Student VISA&reg; card, a FREE checking account and an ATM/Debit card. CU Succeed also offers entertaining quarterly newsletters and an <a href="#">interactive website</a> to help young people learn about money and credit. Enroll your student today! 
                     </p>
 
-              </div>  
-
-            </div>
-             <div class="row">
-
-                <div class="col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9">
                     <h4>Share Savers</h4>
                     <p>We've given you totally FREE checking, with no minimum balance requirement, no monthly service fee and no per check charge. How would you like to get FREE checks to go along with that? Members who join the Share Savers Club and agree to put $2,000 on hold in their regular savings account can get up to three boxes of FREE, complimentary checks per year.</p>
                     

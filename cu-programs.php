@@ -56,9 +56,8 @@ require('blog/wp-blog-header.php');
 
        <?php include 'mainHeader.php' ?>
 
-       <div class="header atmheader">
-         <!-- header of the page - has padding top to fit in nav - add page titles here -->
-
+       <div class="header">
+        
          <div class="container">
             <h2 class="centered">CU Programs</h2>
 
@@ -69,12 +68,12 @@ require('blog/wp-blog-header.php');
 
             <div class="row">
                 <div class="hidden-xs col-sm-4 col-md-3">
-                    <img src="http://placehold.it/200x300" class="img-responsive img-left">
+                    <img src="assets/img/safe.jpg" class="img-responsive img-left">
                 </div>
-                <div class="col-sm-8 col-md-9">
+                <div class="col-sm-8 col-md-9 cu-list">
                     <ul>
                         <li><a href="http://lineweaver.net/">Lineweaver Financial Group</a></li>
-                        <li><a href="$">ID Protect</a></li>
+                        <li><a href="https://www.idprotectme247.com/sec/">ID Protect</a></li>
                         <li><a href="http://travelers.com/psecu/">Travelers Insurance</a></li>
                         <li><a href="http://www.lovemycreditunion.org/Sprint-169.html">Love My Credit Union Rewards</a></li>
                         <li><a href="https://www.cardcash.us/psecreditunion/enrollment_landing.aspx">Card Cash</a></li>
@@ -84,7 +83,7 @@ require('blog/wp-blog-header.php');
                 </div>  
 
             </div>
-
+        </div>
 
                 <?php include 'footer.php'; ?>
 

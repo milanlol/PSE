@@ -56,9 +56,7 @@ require('blog/wp-blog-header.php');
 
        <?php include 'mainHeader.php' ?>
 
-       <div class="header atmheader">
-         <!-- header of the page - has padding top to fit in nav - add page titles here -->
-
+       <div class="header">
          <div class="container">
             <h2 class="centered">Loans</h2>
         </div>
@@ -67,37 +65,83 @@ require('blog/wp-blog-header.php');
 
     <div class="container savings">
         <div class="row">
-            <div class="col-md-10">
-                <h4>Auto Loans - New, Used and Refinanced </h4>
-                <p>The credit union will finance up to 100% of the purchase price of any new car, and up to 100% of the retail value on used vehicles. All rates are fixed, and terms vary from 1-84 months.
-                </p>
-                <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>                    
-
-                <h4>Home Equity Loans</h4>
-                <p>For the most current Home Equity Loans please call 440.545.5135 </p>
-                <div class="spacer-25">
+           
+            <div class="col-md-12">
+                <div class="boxContainer"> 
+                    <h4>Auto Loans - New, Used and Refinanced </h4>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <p>
+                                The credit union will finance up to 100% of the purchase price of any new car, and up to 100% of the retail value on used vehicles. All rates are fixed, and terms vary from 1-84 months.
+                            </p>
+                            <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p> 
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/img/CarLoan.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                                   
                 </div>
                 
 
-                <h4>Collateral Loans</h4>
-                <p>A new or used car, boat, motorcycle, motor home, trailer or truck may be used as collateral on a loan.</p>
-                <div class="spacer-25">
+                <div class="boxContainer"> 
+                    <h4>Home Equity Loans</h4>
+                    <p>For the most current Home Equity Loans please call 440.545.5135 </p>
+                        
                 </div>
-                
-                <h4>Home Equity Lines of Credit</h4>
-                <p>Turn the equity in your home into cash. This type of loan is a second mortgage on real estate. A member may borrow up to $100,000 depending on the value of the real estate. Interest may be tax deductible on Federal tax returns. (Check with your tax advisor).</p>
-                <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>                    
 
-                <h4>Mortgage Loans</h4>
-                <p>For more information on first mortgage rates, please call Woodside Mortgage at 216-591-2202.</p>
-                <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>
+
+                <div class="boxContainer"> 
+                    <h4>Collateral Loans</h4>
+                    <p>A new or used car, boat, motorcycle, motor home, trailer or truck may be used as collateral on a loan.</p>
+                    <div class="spacer-25">
+                    </div>
+                </div>
+
+                <div class="boxContainer"> 
+                    <h4>Home Equity Lines of Credit</h4>
+                    <div class="row">
+                    <div class="col-md-9">
+                    <p>Turn the equity in your home into cash. This type of loan is a second mortgage on real estate. A member may borrow up to $100,000 depending on the value of the real estate. Interest may be tax deductible on Federal tax returns. (Check with your tax advisor).</p>
+                    <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>  
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/loan.jpg" class="img-responsive" alt="">
+                    </div>
+                    </div>              
+                </div>
+
+
+
+                <div class="boxContainer"> 
+                    <h4>Mortgage Loans</h4>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <p>For more information on first mortgage rates, please call Woodside Mortgage at 216-591-2202.</p>
+                            <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>
+                        </div>
+                        <div class="col-md-3">
+                             <img src="assets/img/FamilyLoan.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+                <div class="boxContainer"> 
                 <h4>Shared Secured Loans</h4>
                 <p>You may qualify for our minimum loan rate by securing your loan with the balance in your prime share (savings) account. This is our most economical loan plan.</p>
                 <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>
+                </div>
+
+                <div class="boxContainer"> 
                 <h4>Signature Loans</h4>
                 <p>Loans on your signature for almost any purpose are available up to $10,000 depending on your income and ability to repay. Choose the rate and repayment schedule that is best for you.</p>
-                <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>                </div>
+                <p class="view-rate"><a href="rates.php">View Rates <i class="fa fa-hand-o-right"></i></a></p>                
+                </div>
             </div>
+             </div>
         </div><!-- -->
 
 

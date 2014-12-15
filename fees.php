@@ -1,3 +1,14 @@
+<?php 
+/* Short and sweet */
+define('WP_USE_THEMES', false);
+require('blog/wp-blog-header.php');
+?>
+
+<?php
+require('blog/wp-blog-header.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,54 +32,31 @@
 
     <!-- Custom styles for -->
     <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/colors/color-74c9be.css" rel="stylesheet">    
+    
     <link href="assets/css/animations.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
 
-    <!-- MAP SCRIPT - ALL CONFIGURATION IS PLACED HERE -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-   	<script type="text/javascript" src="assets/js/map.js"></script>
-     
+
     <!-- Main Jquery & Hover Effects. Should load first -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover_pack.js"></script>
+
+    <!-- fotorama.css & fotorama.js. -->
+    <link  href="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+    <script src="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script> <!-- 16 KB -->
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body id="top">
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+<body>
+    <?php include 'mainHeader.php' ?>
 
-<!== Navigation ==>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <img src="assets/img/PSE-Logo.png" class="img-responsive logo" width="200" />
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" class="scroll-link" data-id="home">Home</a></li>
-                    <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
-                    <li><a href="#" class="scroll-link" data-id="locations">Locations</a></li>
-                    <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
-                    <li><a href="#" class="scroll-link" data-id="contact">Contact Us</a></li>
-                    <li><a style="cursor:pointer;" id="loginpopup">Signup</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div>
-    </nav>
+
 
 <div class="container rates">
 
@@ -381,78 +369,18 @@
 
 
 </div>
-<! == BRANDS & CLIENTS ==>    
-    <div id="grey">
-        <div class="container">
-            <div class="row mt centered ">
-                <div class="col-lg-4 col-lg-offset-4">
-                    
-                    <hr>
-                </div><!-- /col-lg-4 -->
-            </div><!-- /row -->
-            <div class="row centered">
-                <div class="col-lg-3 pt">
-                    <img class="img-responsive" src="assets/img/clients/client01.png" alt="">
-                </div>
-                <div class="col-lg-3 pt">
-                    <img class="img-responsive" src="assets/img/clients/client02.png" alt="">
-                </div>
-                <div class="col-lg-3 pt">
-                    <img class="img-responsive" src="assets/img/clients/client03.png" alt="">
-                </div>
-                <div class="col-lg-3 pt">
-                    <img class="img-responsive" src="assets/img/clients/client04.png" alt="">
-                </div>
-            </div><!-- /row -->
-        </div><!-- /container -->
-    </div><!-- /grey -->
-    <!== FOOTER ==>    
-    
-    <div id="f">
-        <div class="container">
-            <div class="row">
-                <!-- ADDRESS -->
-                <div class="col-lg-3">
-                    <h4>Our Main Office</h4>
-                    <p>
-                        5255 Regency Drive,<br/>
-                        Parma, OH 44140<br/>
-                    </p>
-                    <p>
-                        <i class="fa fa-mobile"></i> 440.843.8300<br/>
-                        <i class="fa fa-envelope-o"></i> info@psecreditunion.com
-                    </p>
-                </div><!--/col-lg-3 -->
-                
-                <!-- TWEETS -->
-                <div class="col-lg-3">
-                    <a class="twitter-timeline"  href="https://twitter.com/Perception_MM"  data-widget-id="472054393240449024">Tweets by @Perception_MM</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-                </div><!-- /col-lg-3 -->
-                
-                <!-- LATEST POSTS -->
-                <div class="col-lg-3">
-                    <h4>Latest Posts</h4>
-                    <p>
-                        <i class="fa fa-angle-right"></i> Credit Union Magic Minute<br/>
-                        <i class="fa fa-angle-right"></i> Earn up to 1% Cash Back!<br/>
-                        <i class="fa fa-angle-right"></i> Earn $500 Back<br/>
-                        <i class="fa fa-angle-right"></i> Discount Tickets to Cedar Point<br/>
-                        <i class="fa fa-angle-right"></i> Fund it! Spend it! CUmoney<br/>
-                    </p>
-                </div><!-- /col-lg-3 -->
-                
-                <!-- NEW PROJECT -->
-                <div class="col-lg-3">
-                    <h4>PSE TV!</h4>
-                    <a href="#"><i class="fa fafooter fa-youtube-play"></i></a>
-                </div><!-- /col-lg-3 -->
-                
-                
-            </div><!--/row -->
-        </div><!-- /container -->
-    </div><!-- /f -->
+
+ <?php include 'footer.php'; ?>
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina.js"></script>
+   
 
 
     <script>

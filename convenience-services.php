@@ -56,7 +56,7 @@ require('blog/wp-blog-header.php');
 
        <?php include 'mainHeader.php' ?>
 
-       <div class="header atmheader">
+       <div class="header">
          <!-- header of the page - has padding top to fit in nav - add page titles here -->
 
          <div class="container">
@@ -67,28 +67,38 @@ require('blog/wp-blog-header.php');
 
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
+                <div class="boxContainer">
                 <h4>PAL (Phone Access Line)</h4>
                 <p>This is our audio response system that allows you to access your accounts 24-hours a day, seven days a week from the privacy of your own telephone. Make withdrawals by check, transfer money between accounts, apply for a loan, check loan rates, access CD, IRA and special savings accounts, review checks cleared and even calculate an approximate loan payment. All you have to do is call 440.843.8300 and press 2.
                 </p>
-                  
+                </div>  
 
+                <div class="boxContainer">
                 <h4>Direct Deposits</h4>
                 <p>This service enables any company to send your monies directly to the credit union where the funds are deposited into your savings or checking account. It is available to any member who has an account with us whose company participates in the Federal Reserve ACH Program. Besides your regular paycheck, direct deposit can be used for any periodic payments, such as Social Security, pension checks, investment proceeds, etc.</p>
+                </div>
 
-
-
+                <div class="boxContainer">
                 <h4>ATM/Debit Cards</h4>
                 <p>You can access your accounts 24-hours a day, seven days a week from any ATM with the STAR, PLUS, Pulse, Discover/Novus, Jeanie, American Express, CU 24, MoneyPass or Visa® logo. You can also access your accounts with Fifth Third ATMs.</p>
+                </div>
 
 
+                <div class="boxContainer">
                 <h4>Payroll Deductions</h4>
                 <p>Payroll deduction lets you deposit a portion of your paycheck automatically to the account you specify. It's a simple way to start saving. You can even arrange to have part of your paycheck go toward the repayment of a credit union loan, into your Christmas Club account, special savings account or a children's account. Payroll deduction is available to those members whose employers are set up on our program.</p>                    
+                </div>
 
+                <div class="boxContainer">
                 <h4>Wire Transfers</h4>
-                <p>Wire transfers are a fast, easy and safe way to electronically transfer funds from one financial institution to another.</p>                
+                <p>Wire transfers are a fast, easy and safe way to electronically transfer funds from one financial institution to another.</p>
+                </div>
+
+                <div class="boxContainer">                
                 <h4>Night Depository</h4>
                 <p>Night depositories are located at both the Main Office in Parma (5255 Regency Drive) and the Strongsville Office (12700 Prospect Road).</p>
+                </div>
 
             </div>
             </div>
