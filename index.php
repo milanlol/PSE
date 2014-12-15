@@ -280,78 +280,7 @@ require('blog/wp-blog-header.php');
     	</div><!-- /container -->
     </div><! --/cta02 -->
 
-	<!== Stats ==>    
-	<div id="black">
-		<div class="container pt">
-			<div class="row mt centered">
-				<div class="col-lg-6">
-					<p><i class="fa fa-users"></i></p>
-					<h1>21,337</h1>
-					<hr>
-					<h4>Members</h4>
-				</div>
-				<div class="col-lg-6">
-					<p><i class="fa fa-money"></i></p>
-					<h1>9,764</h1>
-					<hr>
-					<h4>Loans Signed</h4>
-				</div>
-				<!-- 
-				<div class="col-lg-3">
-					<p><i class="fa fa-trophy"></i></p>
-					<h1>107</h1>
-					<hr>
-					<h4>Awards Earned</h4>
-				</div>
-				<div class="col-lg-3">
-					<p><i class="fa fa-smile-o"></i></p>
-					<h1>122,209</h1>
-					<hr>
-					<h4>Customers Satisfied</h4>
-				</div>
-				-->
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /black -->
-
-	<!== Testimonails ==>    
-	<div class="container">
-    	<div class="row mt">
-    		<div class="col-lg-4 col-lg-offset-4 centered">
-    			<h3>Testimonials</h3>
-    			<hr>
-    		</div>
-    	</div><!--/row -->
 	
-		<div class="row mt">
-			<div class="col-lg-12">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">				
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<div class="col-md-3">
-								<img src="assets/img/clients/dan.png"/>
-							 	<h5>Dan Gilbert - Cavs.com</h5>
-							</div>
-							<h2 class="col-md-9">
-							 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
-							</h2>
-						</div>
-						
-						<div class="item">
-						  	<div class="col-md-3">
-								<img src="assets/img/clients/frank.png"/>
-							 	<h5>Frank Jackson - Cleveland Mayor</h5>
-							</div>
-							<h2 class="col-md-9">
-							 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
-							</h2>
-						</div>
-					</div><!-- /carousel-inner -->
-				</div><!--/carousel-example -->		
-			</div><!-- /col-lg-8 -->
-		</div><!--/row -->
-	</div><!-- /container -->
 
 	<!== Map ==>    
 	<div id="white">
