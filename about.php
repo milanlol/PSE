@@ -115,6 +115,7 @@ require('blog/wp-blog-header.php');
 	              		<h4 class="timeline-title">The Beginning</h4>
 	            	</div>
 		            <div class="timeline-body">
+		            <img src="assets/img/timeline/tower.jpg" class="img-responsive" alt="">
 		                <p>
 		              		PSE Credit Union was organized in 1955 as a state-chartered credit union by the Parma School Employees. It began with a mere 236 members and a little under $5,000 in assets. Over the years we have grown to include over 23,000 members and $100 million in assets. Our membership groups have also grown. We currently serve the staff and students of the Parma, North Royalton and Strongsville School Systems, the city workers in several surrounding cities (Parma, Parma Heights, Strongsville, Seven Hills and North Royalton) and the employees of over 200 other corporations/organizations. 
 		              	</p>
