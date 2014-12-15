@@ -5,7 +5,7 @@
 /* OVERALL ASPECT */
 
 body {
-    background-color: #FFE2E2 !important;
+    background-color: #EFE0E0 !important;
 	background-image: url(http://www.transparenttextures.com/patterns/60-lines.png) !important;
 	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     font-family: 'Josefin Sans' , sans-serif;
@@ -717,7 +717,7 @@ p.capitalize:first-letter {
 }
 
 .locbutton {
-	background-color: #3F3535;
+	background-color: #746D6D;
 	padding-bottom: 10px;
 }
 
@@ -1133,6 +1133,29 @@ background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-l
 
 .loanBoxes {
 	padding-bottom: 40px;
+}
+
+.boxContainer {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 1px 1px 3px 0.2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0.07142857142857142rem 0.07142857142857142rem 0.21428571428571427rem 0.014285714285714287rem rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 3px 0.2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0.07142857142857142rem 0.07142857142857142rem 0.21428571428571427rem 0.014285714285714287rem rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 3px 0.2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0.07142857142857142rem 0.07142857142857142rem 0.21428571428571427rem 0.014285714285714287rem rgba(0, 0, 0, 0.1);
+	padding:20px;
+	margin-bottom: 15px;
+}
+
+.cu-list ul {
+	list-style-type: none;
+	padding:0;
+}
+
+.cu-list ul li {
+	font-size:14pt;
+	margin-bottom: 
 }
 
 .carousel-inner .item .col-md-3 img {
