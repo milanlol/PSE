@@ -1344,4 +1344,27 @@ table {
 	}	
 }
 
-
+/* Joe's styles ----------------------*/
+.savings p {
+	margin-bottom:0;
+}
+p.view-rate {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom:25px;
+    cursor:pointer;
+}
+.small-print {
+	font-size:.833em;
+}
+.spacer-25 {
+	height:25px;
+}
+.centered img {
+	margin:auto;
+}
+.img-left {
+	margin:0 20px 20px 0;
+}
