@@ -26,12 +26,12 @@
 						<li><a href="checking.php">Checking</a></li>
 						<li><a href="rates.php">Rates</a></li>
 						<li><a href="fees.php">Fees</a></li>
-						<li><a href="visa.php">Visa</a></li>
+						<!--<li><a href="visa.php">Visa</a></li>-->
 						<li><a href="cu-programs.php">CU Programs</a></li>
 						<li><a href="loans.php">Loans</a></li>
 						<li><a href="member-clubs.php">Member Clubs</a> </li>
 						<li><a href="convenience-services.php">Convenience Services</a></li>
-						<li><a href="#">SEG</a></li>
+						<!--<li><a href="#">SEG</a></li>-->
 			            
 			          </ul>
 			        </li>

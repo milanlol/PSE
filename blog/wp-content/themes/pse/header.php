@@ -74,16 +74,16 @@
 			        <li class="dropdown">
 			          <a href="services.php" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Savings</a></li>
-						<li><a href="#">Checking</a></li>
-						<li><a href="#">Rates</a></li>
-						<li><a href="#">Fees</a></li>
-						<li><a href="#">Visa</a></li>
-						<li><a href="#">CU Programs</a></li>
-						<li><a href="#">Loans</a></li>
-						<li><a href="#">Member Clubs</a> </li>
-						<li><a href="#">Convenience Services</a></li>
-						<li><a href="#">SEG</a></li>
+			            <li><a href="http://www.psecreditunion.org/new/savings.php">Savings</a></li>
+						<li><a href="http://www.psecreditunion.org/new/checking.php">Checking</a></li>
+						<li><a href="http://www.psecreditunion.org/new/rates.php">Rates</a></li>
+						<li><a href="http://www.psecreditunion.org/new/fees.php">Fees</a></li>
+						<!--<li><a href="http://www.psecreditunion.org/new/visa.php">Visa</a></li>-->
+						<li><a href="http://www.psecreditunion.org/new/cu-programs.php">CU Programs</a></li>
+						<li><a href="http://www.psecreditunion.org/new/loans.php">Loans</a></li>
+						<li><a href="http://www.psecreditunion.org/new/member-clubs.php">Member Clubs</a> </li>
+						<li><a href="http://www.psecreditunion.org/new/convenience-services.php">Convenience Services</a></li>
+						<!--<li><a href="#">SEG</a></li>-->
 			            
 			          </ul>
 			        </li>
@@ -106,9 +106,9 @@
 			            <li class="divider"></li>
 			            <li><a href="newsletter.pdf" data-id="newsletter">Newsletter</a></li>
 			            <li class="divider"></li>
-			          	<li><a href="#">Twitter</a></li>
-			            <li><a href="#">Facebook </a></li>
-			            <li><a href="#">YouTube</a></li>
+			          	<li><a href="https://twitter.com/PSECreditUnion"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+			            <li><a href="https://www.facebook.com/PseCreditUnion"><i class="fa fa-facebook-square"></i> Facebook </a></li>
+			            <li><a href="//plus.google.com/u/0/117230295060624059572?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;"> <i class="fa fa-google-plus-square"></i> Google +</a></li>
 			          </ul>
 			        </li>
 			        
