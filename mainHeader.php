@@ -50,13 +50,13 @@
 			          <a href="locations.php" class="dropdown-toggle" data-toggle="dropdown">Connect With Us <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
 			            <li><a href="blog/index.php">Blog</a></li>
-			            <li><a href="blog/index.php">Events</a></li>
+			            <li><a href="http://psecreditunion.org/new/blog/events/">Events</a></li>
 			            <li class="divider"></li>
 			            <li><a href="assets/newsletter/PSEOct2014.pdf" data-id="newsletter">Newsletter</a></li>
 			            <li class="divider"></li>
-			          	<li><a href="#">Twitter</a></li>
-			            <li><a href="#">Facebook </a></li>
-			            <li><a href="#">YouTube</a></li>
+			          	<li><a href="https://twitter.com/PSECreditUnion"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+			            <li><a href="https://www.facebook.com/PseCreditUnion"><i class="fa fa-facebook-square"></i> Facebook </a></li>
+			            <li><a href="//plus.google.com/u/0/117230295060624059572?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;"> <i class="fa fa-google-plus-square"></i> Google +</a></li>
 			          </ul>
 			        </li>
 			        
