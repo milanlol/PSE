@@ -132,6 +132,11 @@ border-bottom-width: 0px;
 	cursor: pointer;
 }
 
+.form-control {
+	border: 1px solid black;
+	margin-bottom:15px;
+}
+
 #search_form {
 float:right;
 z-index: 9999;
@@ -856,7 +861,7 @@ background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-l
 	font-size: 9em;
 }
 .footerLogos {
-	background-color: #3C3232;
+	background-color: #262424;
 	padding: 20px 0;
 }
 /* Color Wraps */
@@ -1396,9 +1401,7 @@ table {
 		width:90%;
 	}
 
-	.lostnum {
-		margin-top: 80px;
-	}
+	
 
 	.mt {
 		text-align: center;
