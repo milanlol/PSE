@@ -24,7 +24,8 @@
 		<div class="container">
 			<div class="row">
 				<!-- ADDRESS -->
-				<div class="col-lg-3">
+				<div class="col-sm-3">
+					<div class="centered">
 					<h4>Our Main Office</h4>
 					<p>
 						5255 Regency Drive,<br/>
@@ -34,11 +35,14 @@
 						<i class="fa fa-mobile"></i> 440.843.8300<br/>
 						<i class="fa fa-envelope-o"></i> info@psecreditunion.com
 					</p>
+					</div>
 				</div><!--/col-lg-3 -->
 
 				
 				<!-- LATEST POSTS -->
-				<div class="col-lg-3">
+				<div class="col-sm-3">
+
+					<div class="centered">
 					<h4>Latest Posts</h4>
 					<?php
 					global $post;
@@ -46,21 +50,24 @@
 					$myposts = get_posts( $args );
 					foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
-					<i class="fa fa-angle-right"></i> <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
+					<i class="fa fa-angle-right"></i> <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a><br /><br />
 					
 					<?php endforeach; ?>
+					</div>
 				</div><!-- /col-lg-3 -->
 				
 				<!-- TWEETS -->
-				<div class="col-lg-3">
+				<div class="col-sm-3">
+
+					<div class="centered">
 					<a class="twitter-timeline" href="https://twitter.com/PSECreditUnion" data-widget-id="529324575599759360">Tweets by @PSECreditUnion</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+					</div>
 				</div><!-- /col-lg-3 -->
 				
 				
 				<!-- NEW PROJECT -->
-				<div class="col-lg-3">
+				<div class="col-sm-3">
 					<div class="centered">
 						<h4>PSE TV!</h4>
 						<a href="#"><i class="fa fafooter fa-youtube-play"></i></a>
