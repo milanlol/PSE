@@ -60,13 +60,24 @@ require('blog/wp-blog-header.php');
 	<div class="lostnum">
 		<div class="container">
 		<strong>
-			For lost or stolen ATM/Debit Cards call 1.800.528.2273 and for VISA Credit Cards call 1.800.449.7728 after regular business hours.
+			For lost or stolen ATM/Debit Cards call <a class="lostnumSpacer" href="tel:+18005282273">1.800.528.2273</a> and for VISA Credit Cards call <a class="lostnumSpacer" href="tel:+18004497728">1.800.449.7728</a> after regular business hours.
 		</strong>
+			
+			<script>
+				if ($(window).width() <= 450) {
+			        $(".lostnumSpacer").append("<br>");
+			        $(".lostnumSpacer").css( "font-size" , "18pt");
+			      }
+			      else {
+			        $('.smallerCont').show();
+			      }
+				
+			</script>
 		</div>
 	</div>
 
 <div class="">
-	<div class="atmheader aboutpad">
+	<div class="atmheader">
 		<div class="container">
 			<h2 class="centered">Our ATMs are Now Online!</h2>
 			<h5>What does this mean for our members?</h5>
@@ -91,35 +102,40 @@ require('blog/wp-blog-header.php');
 			</h4>
 
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4">
 					<div class="locpan">
-						<a href="http://www.atmallianceone.org"><img src="assets/img/aoatm.png"><br><br>
+						<a href="http://www.atmallianceone.org"><img src="assets/img/aoatm.png" class="img-responsive"><br><br>
 						<i class="fa fa-location-arrow fa-1x"></i> Alliance One </a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4">
 					<div class="locpan">
 						<a href="https://www.53.com/atm/branchatm">
-						<img src="assets/img/53atm.png"><br><br>
+						<img src="assets/img/53atm.png" class="img-responsive"><br><br>
 						<i class="fa fa-location-arrow fa-1x"></i> 5/3 Bank </a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4">
 					<div class="locpan">
 						<a href="http://www.cu24.com/ATMLocator/index.aspx">
-						<img src="assets/img/cu24atm.png" ><br><br>
+						<img src="assets/img/cu24atm.png" class="img-responsive" ><br><br>
 						<i class="fa fa-location-arrow fa-1x"></i> Credit Union 24 </a>
 					</div>
 				</div>
 			</div>	
 			
-			<p>
-				Key Bank has notified PSE Credit Union that effective May 1, 2009, they will no longer be honoring the surcharge reductions at their ATM machines. So while your $.25 will no longer get you Key Bank ATM access, you can still use Fifth Third ATMs for only $.25 or you can use the Alliance One ATMs and the CU 24 ATMs for FREE. If you have any questions, please call the ATM/Debit Card Dept. at 440-545-5104.
-			</p>
+			
 
 	    </div>
 	</div>
 </div>	
+<div class="container">
+<br>
+	<p>	
+		Key Bank has notified PSE Credit Union that effective May 1, 2009, they will no longer be honoring the surcharge reductions at their ATM machines. So while your $.25 will no longer get you Key Bank ATM access, you can still use Fifth Third ATMs for only $.25 or you can use the Alliance One ATMs and the CU 24 ATMs for FREE. If you have any questions, please call the ATM/Debit Card Dept. at 440-545-5104.
+	</p>
+	<p>For assistance with your ATM/Debit Card after business hours, contact 1-800-851-4859.</p>
+</div>
 	<div class="locbutton">
 		<div class="container">
 			<a href="locations.php"><h3 class="centered">Find Branch Locations</h3></a>

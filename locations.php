@@ -59,8 +59,19 @@ require('blog/wp-blog-header.php');
 	<div class="lostnum">
 		<div class="container">
 		<strong>
-			For lost or stolen ATM/Debit Cards call 1.800.528.2273 and for VISA Credit Cards call 1.800.449.7728 after regular business hours.
+			For lost or stolen ATM/Debit Cards call <a class="lostnumSpacer" href="tel:+18005282273">1.800.528.2273</a> and for VISA Credit Cards call <a class="lostnumSpacer" href="tel:+18004497728">1.800.449.7728</a> after regular business hours.
 		</strong>
+			
+			<script>
+				if ($(window).width() <= 450) {
+			        $(".lostnumSpacer").append("<br>");
+			        $(".lostnumSpacer").css( "font-size" , "18pt");
+			      }
+			      else {
+			        $('.smallerCont').show();
+			      }
+				
+			</script>
 		</div>
 	</div>
 
@@ -68,10 +79,10 @@ require('blog/wp-blog-header.php');
 	<div class="locationsheader aboutpad">
 		<div class="container">
 			<div class="row locrow">
-					<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="locpan">
 							<h3>Main Office</h3>
-							 <i class="fa fa-location-arrow fa-2x"></i>
+							<a href="https://goo.gl/maps/s03kD"><i class="fa fa-location-arrow fa-2x"></i></a>
 							<p>
 								5255 Regency Drive<br>
 								Parma, OH 44129<br>
@@ -97,10 +108,10 @@ require('blog/wp-blog-header.php');
 						</div>
 					</div>
 					
-					<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="locpan">
 						<h3>Strongsville Office</h3>
-						<i class="fa fa-location-arrow fa-2x"></i>
+						<a href="https://goo.gl/maps/8RPl0"><i class="fa fa-location-arrow fa-2x"></i></a>
 							<p>
 								12700 Prospect Road<br>
 								Strongsville, OH 44149<br>
@@ -124,10 +135,10 @@ require('blog/wp-blog-header.php');
 							</table>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="locpan">
 							<h3>Medina Office</h3>
-							<i class="fa fa-location-arrow fa-2x"></i>
+							<a href="https://goo.gl/maps/cKALD"><i class="fa fa-location-arrow fa-2x"></i></a>
 							<p>
 								3845 Pearl Road<br>
 								Medina Township, OH 44256<br>
@@ -151,13 +162,12 @@ require('blog/wp-blog-header.php');
 							</table>
 						</div>
 					</div>
-			</div>
-			<div class="row">
+			
 				
-					<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="locpan">
 							<h3>Tri-C West</h3>
-							<i class="fa fa-location-arrow fa-2x"></i>
+							<a href="https://goo.gl/maps/B6Dbu"><i class="fa fa-location-arrow fa-2x"></i></a>
 							<p>
 								11000 Pleasant Valley Rd. Room G109<br>
 								Parma, OH 44130<br>
@@ -186,10 +196,10 @@ require('blog/wp-blog-header.php');
 						</div>
 					</div>
 					
-					<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="locpan">
 						<h3>Tri-C Metro</h3>
-						<i class="fa fa-location-arrow fa-2x"></i>
+						<a href="https://goo.gl/maps/lCpvk"><i class="fa fa-location-arrow fa-2x"></i></a>
 							<p>
 								2900 Community College Ave. Room 88E<br>
 								Cleveland, OH 44115<br>
@@ -210,10 +220,10 @@ require('blog/wp-blog-header.php');
 							</table>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="locpan">
 							<h3>Tri-C East</h3>
-							<i class="fa fa-location-arrow fa-2x"></i>
+							<a href="https://goo.gl/maps/5a2s4"><i class="fa fa-location-arrow fa-2x"></i></a>
 							<p>
 								4250 Richmond Road<br>
 								Highland Hills Village, OH 44122<br>
