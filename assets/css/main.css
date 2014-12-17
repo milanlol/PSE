@@ -222,7 +222,6 @@ position: relative;
 }
 
 .desctitle {
-	width: 275px;
 	padding: 0;
 	margin: -5px auto 20px auto;
 	background-color: #322828;
@@ -271,7 +270,6 @@ position: relative;
 }
 
 .blogPostWrap {
-	width:275px;
 	margin:0 auto;
 }
 
@@ -330,13 +328,21 @@ p.capitalize:first-letter {
 }
 
 .btn-cta {
-  color: #ffffff;
+  	color: #ffffff;
 	background-color: transparent;
 	border-color: #ffffff;
-	font-family: sans-serif;
-	font-size: 18px;
-	letter-spacing: 2px;
-	margin: 0 5px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.btn-cta2 {
+	font-size: 10pt;
+}
+
+.btn-cta3 {
+	font-size: 10pt;
+	background-color: #EFE0E0;
+	color: #000;
 
 }
 
@@ -576,7 +582,9 @@ p.capitalize:first-letter {
 	background-color: white;
 }
 
-
+.enrollNow {
+	font-size: 14pt;
+}
 
 .OB {
 	
@@ -588,6 +596,7 @@ p.capitalize:first-letter {
 
 .OB p {
 	color:#C5C5C5;
+	margin-bottom: 0px;
 }
 
 .OB a {
@@ -605,12 +614,12 @@ p.capitalize:first-letter {
 
 
 .obbuttons {
-	padding:20px 0;
+	padding:15px 0;
 }
 
 .obbuttons .btn-cta {
 	width:80%;
-	margin:0px;
+	margin:0px 0px 10px;
 }
 
 /***** Testimonials Styling *****/
@@ -1190,6 +1199,10 @@ background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-l
 	padding-top:80px;
 }
 
+.visaPromo {
+	padding: 0px 20px 40px 20px;
+}
+
 .t50 tr td {
 	width:50%;
 }
@@ -1284,7 +1297,21 @@ table {
 }
 
 
+@media (max-width: 450px) { 
+	.fotorama {
+		visibility: hidden;
+		display: none;
+	}
 
+	#map {
+		height:300px;
+	}
+
+	.header {
+		margin-bottom: 0;
+	}
+
+}
 
 
 @media (max-width: 600px) { 
@@ -1301,6 +1328,12 @@ table {
 }
 
 @media (max-width: 767px) {
+
+	
+
+	.OB p {
+		line-height: 40px;
+	}
 
 	.btn-cta {
 		margin: 0px;
@@ -1345,26 +1378,55 @@ table {
 
 @media (max-width: 900px) { 
 
-.OB {
-	margin-bottom: 40px;
-
-}
-
-.lostnum {
-	margin-top: 80px;
-}
-
-.mt {
-	text-align: center;
-}
-
-.nav {
-	float: left !important;
-}
-
-#cta03 {
-	background: #2d2d2d;
+	.enrollNav,
+	.logInNav {
+		border-radius: 0px;
 	}	
+
+	.OB {
+		margin-bottom: 40px;
+		padding:20px 0 10px;
+	}
+
+	.obbuttons {
+		padding: 30px 10px !important;
+	}
+
+	.obbuttons .btn-cta {
+		width:90%;
+	}
+
+	.lostnum {
+		margin-top: 80px;
+	}
+
+	.mt {
+		text-align: center;
+	}
+
+	#cta03 {
+		background: #2d2d2d;
+	}	
+}
+
+
+
+@media (max-width: 1200px) {
+	.logIn h3 {
+		font-size: 12pt;
+	}
+	
+	.OB {
+		padding:0px;
+	}
+	
+	.obbuttons {
+		padding: 10px 0 0 0;
+	}
+
+	.obbuttons .btn-cta {
+		margin: 0px 0px 12px;
+	}
 }
 
 /* Joe's styles ----------------------*/

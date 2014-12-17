@@ -41,7 +41,7 @@ require('blog/wp-blog-header.php');
    	<script type="text/javascript" src="assets/js/map.js"></script>
      
     <!-- Main Jquery & Hover Effects. Should load first -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/hover_pack.js"></script>
 
     <!-- fotorama.css & fotorama.js. -->
@@ -70,12 +70,21 @@ require('blog/wp-blog-header.php');
 				<div class="OB">
 					
 					<div class="obbuttons row">
-						<div class="col-xs-12 col-sm-6 col-md-12 col-lg-12"><button type="button" class="btn btn-cta ">Log In</button><br><br></div>
-						<div class="col-xs-12 col-sm-6 col-md-12 col-lg-12"><button type="button" class="btn btn-cta ">Sign Up</button></div>
+						<div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+							<button type="button" class="btn btn-cta" onclick="location.href='https://www.financial-net.com/psecreditunion'">Log In</button>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+							<button type="button" class="btn btn-cta btn-cta2" onclick="location.href='https://www.financial-net.com/psecreditunion/enrollment/OlbCmdSit249'">Sign Up For Online Banking</button>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+							<button type="button" class="btn btn-cta btn-cta3" onclick="location.href='https://mrp1.cunetbranch.com/swk/mrp_8377/App.aspx?AppID=11001'">Not a member? Enroll Now!</button>
+						</div>
 						
 					   	
 				   	</div>
-				   	<p class="OB-links"> <a href="#" data-toggle="modal" data-target="#myModal">PSE-Biz Pay</a> - <a href="#">Enroll</a> </p>
+				   	<p class="OB-links"> 
+				   		<a href="#" data-toggle="modal" data-target="#myModal">PSE-Biz Pay</a> 
+				   	</p>
 				   	<div class="container">
 						<!-- Modal -->
 						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -86,12 +95,13 @@ require('blog/wp-blog-header.php');
 						        <h4 class="modal-title" id="myModalLabel">PSE-Biz Pay</h4>
 						      </div>
 						      <div class="modal-body">
-						        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, magni, nemo. Expedita et doloribus voluptatem adipisci pariatur molestiae tempore tenetur, sed totam architecto fuga, cupiditate perspiciatis minus blanditiis commodi error laboriosam velit sit? Rerum aspernatur quasi repellat illum dignissimos aliquam neque aperiam quam reiciendis cum. Modi quis, praesentium esse suscipit!
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary" onclick="location.href='https://www.businessbillpay-e.com/V2/Tutorial/Overview/BusinessDemo.aspx?instID=38449'">Demo</button>
+						        <button type="button" class="btn btn-primary" onclick="location.href='https://www.businessbillpay-e.com/v2/login.aspx?instid=38449'">Log In</button>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Demo</button>
-						        <button type="button" class="btn btn-primary">Log In</button>
+						        
+						        
 						      </div>
 						    </div>
 						  </div>
@@ -136,7 +146,7 @@ require('blog/wp-blog-header.php');
 			$myposts = get_posts( $args );
 			foreach( $myposts as $post ) :	setup_postdata($post); ?>
 			
-			<div class="col-lg-4 col-md-4 col-xs-12 desc">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
 				<div class="blogPostWrap">
 					<a class="b-link-fade b-animate-go" href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?>
 						<div class="b-wrapper">
@@ -180,7 +190,7 @@ require('blog/wp-blog-header.php');
     		<div class="row ctapad">
     			<div class="col-lg-6">
     				<div class="videoWrapper">
-    					<iframe width="560" height="300" src="//www.youtube.com/embed/ZeUsv_cdF4o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    					<iframe width="560" height="315" src="//www.youtube.com/embed/7At4zfJXoGg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     				</div>
     			</div>
     			<div class="col-lg-6">
@@ -188,7 +198,7 @@ require('blog/wp-blog-header.php');
     				<p>
     					PSE Credit Union membership is open to anyone who lives, works, worships, or attends school in Cuyahoga or Medina County; any employee or group member from one of PSECU's 200 different Select Employee Groups; or any family member living in the same household as a current PSECU member.
     				</p>
-    				<div class="centered"> <button type="button" class="btn btn-cta btn-lg">Enroll Now! >></button> </div>
+    				<div class="centered"> <button type="button" class="btn btn-cta btn-lg" onclick="location.href='https://mrp1.cunetbranch.com/swk/mrp_8377/App.aspx?AppID=11001'" >Enroll Now! ></button> </div>
     				
     			</div>
     		</div><!-- /row -->
@@ -201,7 +211,7 @@ require('blog/wp-blog-header.php');
     				<p>
     					When you join the credit union and make your initial $5 deposit, you have opened a daily interest savings account.  There is no minimum balance requirement to earn interest on your regular savings account!
     				</p>
-    				<div class="centered"><button type="button" class="btn btn-cta btn-lg">Apply Now >></button></div>
+    				<div class="centered"><button type="button" class="btn btn-cta btn-lg" onclick="location.href='savings.php'">Learn More ></button></div>
     				
     			</div>
     			<div class="col-lg-6 col-md-6 col-sm-12 checkingAcc">
@@ -211,7 +221,7 @@ require('blog/wp-blog-header.php');
     				<p>
     					NO monthly service fee, NO minimum balance requirement, NO per check charge, your first 50 checks are FREE, and FREE Visa® Check Card (Debit/ATM card) gives you 24 hour access to your account. 
     				</p>
-    				<div class="centered"><button type="button" class="btn btn-cta btn-lg">Learn More >></button></div>
+    				<div class="centered"><button type="button" class="btn btn-cta btn-lg" onclick="location.href='checking.php'">Learn More ></button></div>
     				
     			</div>
     		</div><!-- /row -->
@@ -235,36 +245,37 @@ require('blog/wp-blog-header.php');
 		</div><!-- /row -->
     	<div class="row mt loanBoxes">
     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
-    			<i class="fa fa-car"></i>
-    			<h4>Auto Loans</h4>
+    			<a href="loans.php"><i class="fa fa-car"></i>
+    			<h4>Auto Loans</h4></a>
     			<p>The credit union will finance up to 100% of the purchase price of any new car, and up to 100% of the retail value on used vehicles. All rates are fixed, and terms vary from 1-84 months.</p>
     		</div>
     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
-    			<i class="fa fa-truck"></i>
-    			<h4>Collateral Loans</h4>
+    			<a href="loans.php"><i class="fa fa-truck"></i>
+    			<h4>Collateral Loans</h4></a>
     			<p>A new or used car, boat, motorcycle, motor home, trailer, or truck may be used as collateral on a loan.</p>
     		</div>
     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
-    			<i class="fa fa-home"></i>
-    			<h4>Home Equity Lines of Credit</h4>
+    			<a href="loans.php"><i class="fa fa-home"></i>
+    			<h4>Home Equity Lines of Credit</h4></a>
     			<p>This type of loan is a second mortgage on real estate. A member may borrow up to $100,000 depending on the value of the real estate. Interest may be tax deductible on Federal tax returns.</p>
     		</div>    	
 
     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
-    			<i class="fa fa-key"></i>
-    			<h4>Mortgage Loans</h4>
+    			<a href="loans.php"><i class="fa fa-key"></i>
+    			<h4>Mortgage Loans</h4></a>
     			<p>For more information on first mortgage rates, please call Woodside Mortgage at 216-591-2202.</p>
     		</div>
     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
-    			<i class="fa fa-lock"></i>
-    			<h4>Shared Secured Loans</h4>
+    			<a href="loans.php"><i class="fa fa-lock"></i>
+    			<h4>Shared Secured Loans</h4></a>
     			<p>You may qualify for our minimum loan rate by securing your loan with the balance in your prime share (savings) account. This is our most economical loan plan.</p>
     		</div>
     		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 centered si loanBox">
-    			<i class="fa fa-pencil"></i>
-    			<h4>Signature Loans</h4>
+    			<a href="loans.php"><i class="fa fa-pencil"></i>
+    			<h4>Signature Loans</h4></a>
     			<p>Loans on your signature for almost any purpose are available up to $10,000 depending on your income and ability to repay.</p>
-    		</div>    	
+    		</div>  
+
     	</div><!-- /row -->
     </div><!-- /container -->
 
@@ -272,9 +283,9 @@ require('blog/wp-blog-header.php');
     <div id="cta02">
     	<div class="container">
     		<div class="row">
-    			<div>
+    			<div class="visaPromo">
     				<h2>Shop around and compare our VISA cards to all the rest. You'll soon discover that you've found the best deal in town right here at PSE Credit Union.</h2>
-    				<button type="button" class="btn btn-cta btn-lg">LEARN MORE</button>
+    				<button type="button" class="btn btn-cta btn-lg" onclick="location.href='visa.php'">LEARN MORE</button>
     			</div>
     		</div><!-- /row -->
     	</div><!-- /container -->
