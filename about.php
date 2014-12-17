@@ -67,7 +67,7 @@ require('blog/wp-blog-header.php');
 <div class="whatis">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-sm-8">
 			    <div id="CU">
 			    	<h4 class="centered">What is a Credit Union?</h4>
 			    	<p>
@@ -81,7 +81,7 @@ require('blog/wp-blog-header.php');
 			    	</p>
 			    </div>
 			</div>
-			<div class="col-md-4 board">
+			<div class="col-sm-4 board">
 				<ul><h5>2014 Board of Directors</h5>
 		          <li>Dale McMahan—Chairperson</li>
 		          <li>David Toetz—Vice-Chairperson</li>
@@ -365,7 +365,7 @@ require('blog/wp-blog-header.php');
         <div class="col-md-4"> 
         	<h5>Current Open Positions:</h5>
         	<p>
-				There are no openings at this time.
+				There are no openings at this time. <br>
 				<a class="btn btn-success">Application for Employment</a>
 			</p>
 		</div>
